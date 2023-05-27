@@ -1,0 +1,32 @@
+{
+  "name": "menu-bufalita",
+  "version": "1.0.0",
+  "description": "menu digital restaurante bufalita express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Millitos/menu-bufalita.git"
+  },
+  "keywords": [
+    "menu",
+    "comida",
+    "bufalita"
+  ],
+  "author": "Millos,JuanG",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Millitos/menu-bufalita/issues"
+  },
+  "homepage": "https://github.com/Millitos/menu-bufalita#readme",
+  "dependencies": {
+    "gulp": "^4.0.2"
+  },
+  "devDependencies": {
+    "dart-sass": "^1.25.0",
+    "gulp-sass": "^5.1.0",
+    "node-sass": "^8.0.0"
+  }
+}
