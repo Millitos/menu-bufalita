@@ -13,5 +13,9 @@ function compilarSass() { //tarea para aplicarle sass al archivo que puse en la 
     .pipe(dest("./build/css")); //indico donde quiero guardar las hojas de estilo
 }   
 
+function prueba(){
+    
+}
+
 //para hacer la tarea disponible, para que gulp sepa que existe
 exports.compilarSass = compilarSass; //exports.NombreTarea = NombreFuncion
