@@ -4,51 +4,125 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="build/css/app.css">
     <title>Bufalita Express</title>
 </head>
 <body>
+    <section class="mainScreenSection">
     <!-- Logo -->
-    <header>
-        <div>
-            <img src="build/img/logo.svg" alt="Bufalita Express">
-        </div>
-    </header>
+        <header>
+            <div class="containerLogo">
+                <img src="build/img/logo.png" alt="Bufalita Express">
+            </div>
+        </header>
 
-    <!-- cuerpo interfaz principal -->
-    <main>
-        <div>
-            <div class="">
-                <img src="" alt="">  <!-- Logo -->
-                <button>menu</button>
+        <!-- cuerpo interfaz principal -->
+        <main>
+            <div class="containerButtons">
+
+                <button class="btn btnMenu" type="button">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4 iconContainer">
+                                <h3><i class="bi bi-clipboard2"></i> </h3>
+                            </div>
+                            <div class="col-md-8 ">
+                                <div class="card-body textContainer">
+                                        <p class="card-text">Menu</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </button>
+                
+                <button class="btn btnDomi" type="button">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4 iconContainer">
+                                <h3><i class="bi bi-truck"></i> </h3>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body textContainer">
+                                    <p class="card-text">Pedir comida a domicilio </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </button>
+
+                <button class="btn btnUbi" type="button">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4 iconContainer">
+                                <h3><i class="bi bi-geo-alt-fill"></i> </h3>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body textContainer">
+                                
+                                    <p class="card-text">Nuestra ubicación</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </button>
+            
+                <button class="btn btnAbout" type="button">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4 iconContainer">
+                                <h3><i class="bi bi-file-person"></i> </h3>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body textContainer">
+                                    <p class="card-text">Sobre nosotros</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </button>
+
             </div>
-            <div class="">
-                <img src="" alt="">
-                <button>Pedir comida a domicilio</button>
-            </div>
-            <div class="">
-                <img src="" alt="">
-                <button>Nuestra ubicación</button>
-            </div>
-            <div class="">
-                <img src="" alt="">
-                <button>Sobre nosotros</button>
-            </div>
-        </div>
-    </main>
-    
+        </main>
+    </section>
+
     <!-- footer -->
+    <div class="container-fluid footer">
+        <footer>
+            <section class="horario">
+                <h4>Horario</h4>
+                <ul>
+                    <li>Miercoles a Lunes: 5 - 10 pm</li>
+                </ul>
+                <h4>Dirección</h4>
+                <ul>
+                    <li>Carrera 2 No 5-38 Centro</li>
+                </ul>
+            </section>
 
-    <footer>
-        <section class="">
-            <h3>Horario</h3>
-            <ul>
-                <li></li>
-            </ul>
-        </section>
-        <section class="">logo</section>
-        <section class="">social media</section>
-    </footer>
+            <div class="containerLogoFooter">
+                <img src="build/img/logo.png" alt="Bufalita Express">
+            </div>
+
+            <section class="contrataciones">
+                <h4>Contrataciones</h4>
+                <ul>
+                    <li>millosenrique
+                        jinete
+                        @hotmail.com
+                    </li>
+                </ul>
+                <h4>Teléfono</h4>
+                <ul>
+                    <li>+57 3132635282</li>
+                </ul>
+            </section>
+        </footer>
+    </div>
+    <script src="build/js/bundle.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 
 </body>
 </html>

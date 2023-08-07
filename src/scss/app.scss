@@ -1,5 +1,12 @@
-$rojo : 'red';
+//normalize
+@import 'base/normalize';
 
-body {
-    background-color: $rojo;
-}
+//google fonts
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+//secundary baseFiles
+@import 'base/variables';
+@import 'base/mixins';
+@import 'base/globales';
+
+//layout files
+@import 'layout/mainScreen';

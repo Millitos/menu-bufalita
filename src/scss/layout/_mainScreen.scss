@@ -1,0 +1,91 @@
+.mainScreenSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .containerLogo{
+        width: 30rem;
+
+        img{
+            width: 100%;
+        }
+    }
+}
+
+main{
+    .btnMenu{
+        background-color: $amarillo;
+    }
+    .btnDomi{
+        background-color: $azul;
+    }
+    .btnUbi{
+        background-color: $naranja;
+    }
+    .btnAbout{
+        background-color: $rojo;
+    }
+
+    .containerButtons{
+        display: flex;
+        flex-direction: column;
+        row-gap: $separacion/3;
+    }
+    .card{
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .textContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .iconContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2px;
+    }
+
+    .card-text{
+        text-align: center;
+        //white-space: nowrap;
+        //width: 20rem;
+    }
+}
+
+.footer{
+    margin-top: $separacion;
+    background-color: $blanco;
+        
+    .horario {
+        h4{
+            font-weight: $bold;
+            font-size: large;
+        }
+    }
+
+    footer{
+        @include gridCol(3,$separacion/4);
+        //text-align: center;
+    }
+
+    .containerLogoFooter{
+        display: flex;
+        align-items: center;
+        width: 15rem;
+        margin: 0 auto;
+        img{
+            width: 100%;
+        }
+    }
+    .contrataciones{
+        h4{
+            font-weight: $bold;
+            font-size: large;
+        }
+    }
+}

@@ -1,0 +1,31 @@
+@mixin telefono{
+    @media (max-width: 480px) {
+        @content; //toma el contenido pasado como argumentos
+    }
+}
+
+@mixin tablet{
+    @media (max-width: 768px) {
+        @content; //toma el contenido pasado como argumentos
+    }
+}
+
+@mixin desktop{
+    @media (min-width: 1200px) {
+        @content; //toma el contenido pasado como argumentos
+    }
+}
+
+//mixin para aplicar css grid
+@mixin gridCol($columnas, $espaciado){
+    display: grid;
+    grid-template-columns: repeat($columnas, 1fr);
+    gap: $espaciado;
+}
+
+@mixin gridRow($filas, $espaciado){
+    display: grid;
+    grid-template-rows: repeat($filas, 1fr);
+    gap: $espaciado;
+}
+
