@@ -12,4 +12,6 @@ document.addEventListener('DOMContentLoaded',function(){
     
 })
 
-//este archivo es el que se creaba previamente cuando se juntaban todos los js en uno solo
+function redirectToNewPage(){
+    window.location.href = 'menu.html';
+}

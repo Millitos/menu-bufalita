@@ -23,16 +23,31 @@ function compilarSass() { //tarea para aplicarle sass al archivo que puse en la 
     .pipe(dest("./build/css")); //indico donde quiero guardar las hojas de estilo
 }   
 
-function watchArchivos(){
-    watch(paths.scss, compilarSass);
-    watch(paths.js, javascript);
+//para poder crear archivos de css separados para cada pagina html
+function indivCss(){
+    return src(paths.scss)
+    .pipe(sass())
+    .pipe(dest("./build/css"))
 }
 
-function javascript(){
+function watchArchivos(){
+    watch(paths.scss, compilarSass);
+    watch(paths.js, indivJavascript);
+    watch(paths.scss, indivCss);
+}
+
+//funcion que crea archivos js en la carpeta build por separado cada uno
+function indivJavascript(){
     return src(paths.js)
-    .pipe(concat('bundle.js'))
     .pipe(dest('./build/js'));
 }
+
+//esta funcion une todos los cambios de varios archivos js en uno solo
+// function javascript(){
+//     return src(paths.js)
+//     .pipe(concat('bundle.js'))
+//     .pipe(dest('./build/js'));
+// }
 
 function imagenes(){
     return src(paths.imagenes)
@@ -51,8 +66,10 @@ function versionWebp(){
 //para hacer la tarea disponible, para que gulp sepa que existe
 exports.compilarSass = compilarSass; //exports.NombreTarea = NombreFuncion
 exports.watchArchivos = watchArchivos;
-exports.javascript = javascript;
+// exports.javascript = javascript;
 exports.imagenes = imagenes;
 exports.versionWebp = versionWebp;
+exports.indivJavascript = indivJavascript;
+exports.indivCss = indivCss;
 
-exports.default = series(compilarSass,watchArchivos,javascript);
+exports.default = series(compilarSass,watchArchivos,indivJavascript,indivCss);

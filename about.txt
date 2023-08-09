@@ -1,0 +1,14 @@
+- cree una funcion en el archivo gulpfile.js (indivJavascript) para que se creara en la carpeta build un archivo
+    de javascript por separado para poder tener orden y vincular cada html con su respectivo
+    documento de javascript.
+
+- cree de igual manera una funcion para hacer lo mismo con los archivos de css
+
+- para que el archivo app.scss no mande los cambios de los archivos hijos _Scss, que estan dentro de la carpeta scss
+    entonces simplemente no los importo en el archivo app, de esa manera hago que solo los archivos que yo quiera
+    los junte en un solo archivo de css dentro la carpeta build llamado app.css, el resto de archivos entonces
+    cree la funcion llamada indivCss para que me creara dentro de la carpeta build un css aparte para cada archivo de scss(src)
+
+- build/css/app.css: todos los archivos ligados e importados en app.scss, todo el codigo estara junto en ese unico archivo
+
+-build/css/layout/css: los archivos que quiero dejar por separado para poder vincularlos cada uno a su respectivo html
