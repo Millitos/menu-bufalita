@@ -72,4 +72,4 @@ exports.versionWebp = versionWebp;
 exports.indivJavascript = indivJavascript;
 exports.indivCss = indivCss;
 
-exports.default = series(compilarSass,watchArchivos,indivJavascript,indivCss);
+exports.default = series(compilarSass,watchArchivos, imagenes,indivJavascript,indivCss);

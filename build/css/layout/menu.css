@@ -1,3 +1,132 @@
+@charset "UTF-8";
 .navbar {
-  background-color: #40bcf1;
+  background-color: #181818;
+}
+
+body {
+  font-family: "Abel", sans-serif;
+  font-size: 1.6rem;
+  margin: 0;
+  /* Elimina los márgenes por defecto del body */
+  padding: 0;
+  /* Elimina el padding por defecto del body */
+  background-image: url("../../../build/img/fondo.jpg");
+  /* Ruta de la imagen de fondo */
+  background-size: cover;
+  /* Cubre toda la pantalla */
+  background-repeat: no-repeat;
+  /* No se repite */
+}
+
+.hidden {
+  overflow: hidden;
+}
+
+.lds-ring {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+
+.lds-ring div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border: 8px solid #fff;
+  border-radius: 50%;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: #fff transparent transparent transparent;
+}
+
+.lds-ring div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+
+.lds-ring div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+
+.lds-ring div:nth-child(3) {
+  animation-delay: -0.15s;
+}
+
+@keyframes lds-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.hide {
+  display: none;
+}
+
+.loader {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.loader .logoSpinner {
+  width: 20rem;
+}
+.loader .logoSpinner img {
+  width: 100%;
+}
+
+.div-container {
+  width: 100%;
+}
+.div-container .icon-background {
+  background-color: white;
+  /* Color de fondo blanco */
+  padding: 5px;
+  /* Espacio alrededor del icono */
+  border-radius: 50%;
+  /* Para hacer el fondo circular */
+}
+.div-container .container {
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  width: 100%;
+}
+.div-container .navbar-brand {
+  margin: auto 0;
+}
+.div-container .navbar-logo {
+  width: 5rem;
+  margin: 0 auto;
+}
+.div-container .navbar-logo img {
+  width: 100%;
+}
+
+.menus {
+  margin-top: 3rem;
+}
+
+.col-sm-6 {
+  border-radius: 10px;
+  padding: 10px 10px;
+}
+.col-sm-6 button {
+  border: none;
+  padding: 0;
+  transition: transform 0.3s;
+  box-shadow: 0px 5px 5px;
+}
+.col-sm-6 button:hover {
+  transform: scale(1.1);
+}
+.col-sm-6 img {
+  width: 100%;
+  border-radius: 10px;
 }
