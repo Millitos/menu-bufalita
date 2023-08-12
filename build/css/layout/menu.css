@@ -36,10 +36,10 @@ body {
   width: 64px;
   height: 64px;
   margin: 8px;
-  border: 8px solid #fff;
+  border: 8px solid #181818;
   border-radius: 50%;
   animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
-  border-color: #fff transparent transparent transparent;
+  border-color: #181818 transparent transparent transparent;
 }
 
 .lds-ring div:nth-child(1) {
@@ -114,10 +114,12 @@ body {
 }
 
 .col-sm-6 {
+  box-sizing: border-box;
   border-radius: 10px;
   padding: 10px 10px;
 }
 .col-sm-6 button {
+  width: 100%;
   border: none;
   padding: 0;
   transition: transform 0.3s;
