@@ -11,3 +11,7 @@ document.addEventListener('DOMContentLoaded',function(){
     // console.log('ola');
     
 })
+
+function redirectToBebidas(){
+    window.location.href = 'bebidas.html';
+}
