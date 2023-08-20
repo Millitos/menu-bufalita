@@ -1,0 +1,176 @@
+[
+    {
+        "id": "1",
+        "nombre": "Bufalita Express",
+        "ingredientes": [
+          "Carne de búfalo 145g",
+          "Verdura",
+          "Queso de búfalo",
+          "Porción de papas"
+        ],
+        "Precio": "$15.000"
+      },
+      {
+        "id": "2",
+        "nombre": "Bufalita Express Picante",
+        "ingredientes": [
+          "Carne de búfalo picante 145g",
+          "Verdura",
+          "Queso de búfalo",
+          "Porción de papas"
+        ],
+        "Precio": "$17.000"
+      },
+      {
+        "id": "3",
+        "nombre": "Express Mixta Picante",
+        "ingredientes": [
+          "Carne de búfalo 145g",
+          "Carne de búfalo picante 145g",
+          "Verdura",
+          "Queso de búfalo",
+          "Porción de papas"
+        ],
+        "Precio": "$20.000"
+      },
+      {
+        "id": "4",
+        "nombre": "Express Mixta Pollo",
+        "ingredientes": [
+          "Carne de búfalo 145g",
+          "Cortes de pollo en juliana",
+          "Verdura",
+          "Queso de búfalo",
+          "Porción de papas"
+        ],
+        "Precio": "$20.000"
+      },
+      {
+        "id": "5",
+        "nombre": "Express Doble Carne",
+        "ingredientes": [
+          "Carne de búfalo x2 145g c/u",
+          "Verdura",
+          "Queso de búfalo",
+          "Porción de papas"
+        ],
+        "Precio": "$20.000"
+      },
+      {
+        "id": "6",
+        "nombre": "Express Picante Pollo",
+        "ingredientes": [
+          "Carne de búfalo picante 145g",
+          "Cortes de pollo en juliana",
+          "Verdura",
+          "Queso de búfalo",
+          "Porción de papas"
+        ],
+        "Precio": "$20.000"
+      },
+      {
+        "id": "7",
+        "nombre": "Express Doble Picante",
+        "ingredientes": [
+          "Carne de búfalo picante x2 145g c/u",
+          "Verdura",
+          "Queso de búfalo",
+          "Porción de papas"
+        ],
+        "Precio": "$21.000"
+      },
+      {
+        "id": "8",
+        "nombre": "Express Mini",
+        "ingredientes": [
+          "Carne de búfalo 100g",
+          "Verdura",
+          "Queso de búfalo",
+          "Porción de papas"
+        ],
+        "Precio": "$13.000"
+      },
+      {
+        "id": "9",
+        "nombre": "Express Mini Mixta Pollo",
+        "ingredientes": [
+          "Carne de búfalo 100g",
+          "Cortes de pollo en juliana",
+          "Verdura",
+          "Queso de búfalo",
+          "Porción de papas"
+        ],
+        "Precio": "$15.000"
+      },
+      {
+        "id": "10",
+        "nombre": "Express Solo Pollo",
+        "ingredientes": [
+          "Cortes de pollo en juliana",
+          "Verdura",
+          "Queso de búfalo",
+          "Porción de papas"
+        ],
+        "Precio": "$15.000"
+      },
+      {
+        "id": "11",
+        "nombre": "Express Casera",
+        "ingredientes": [
+          "Carne de búfalo 145g",
+          "Chorizo",
+          "Cortes de pollo en juliana",
+          "Tocineta",
+          "Verdura",
+          "Queso de búfalo",
+          "Porción de papas"
+        ],
+        "Precio": "$23.000"
+      },
+      {
+        "id": "12",
+        "nombre": "Express Casera Picante",
+        "ingredientes": [
+          "Carne de búfalo picante 145g",
+          "Chorizo",
+          "Cortes de pollo en juliana",
+          "Tocineta",
+          "Verdura",
+          "Queso de búfalo",
+          "Porción de papas"
+        ],
+        "Precio": "$24.000"
+      },
+      {
+        "id": "13",
+        "nombre": "Maxi Express",
+        "ingredientes": [
+          "Carne de búfalo 145g",
+          "Carne de bufalo picante 145g",
+          "Chorizo",
+          "Cortes de pollo en juliana",
+          "Tocineta",
+          "Verdura",
+          "Queso de búfalo",
+          "Porción de papas"
+        ],
+        "Precio": "$25.000"
+      },
+      {
+        "id": "14",
+        "nombre": "Mega Express",
+        "ingredientes": [
+          "Carne de búfalo 250g",
+          "Carne de bufalo picante 145g",
+          "Arepa",
+          "Chorizo",
+          "Cortes de pollo en juliana",
+          "Tocineta",
+          "Verdura",
+          "Queso de búfalo",
+          "Porción de papas"
+        ],
+        "Precio": "$30.000"
+      }
+
+]

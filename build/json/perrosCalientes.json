@@ -1,0 +1,70 @@
+[
+    {
+        "id": "1",
+        "nombre": "Perro Tradicional Express",
+        "ingredientes": [
+          "Salchicha Americana",
+          "Ripio papa",
+          "Cebolla",
+          "Queso",
+          "Porción de papas"
+        ],
+        "Precio": "$13.000"
+      },
+      {
+        "id": "2",
+        "nombre": "Perro Americano Express",
+        "ingredientes": [
+          "Salchicha Americana",
+          "Pollo",
+          "Tocineta",
+          "Cebolla",
+          "Ripio papa",
+          "Queso",
+          "Porción de papas"
+        ],
+        "Precio": "$15.000"
+      },
+      {
+        "id": "3",
+        "nombre": "Super Perro Express",
+        "ingredientes": [
+          "Salchicha Americana",
+          "Pollo",
+          "Carne",
+          "Tocineta",
+          "Trocitos de maduro",
+          "Queso",
+          "Porción de papas"
+        ],
+        "Precio": "$17.000"
+      },
+      {
+        "id": "4",
+        "nombre": "Choriperro Express",
+        "ingredientes": [
+          "Chorizo de búfalo",
+          "Ripio papa",
+          "Cebolla",
+          "Queso",
+          "Porción de papas"
+        ],
+        "Precio": "$13.000"
+      },
+      {
+        "id": "5",
+        "nombre": "Choriperro Bufalita Express",
+        "ingredientes": [
+          "Chorizo de búfalo",
+          "Ripio papa",
+          "Cebolla",
+          "Pollo",
+          "Carne",
+          "Tocineta",
+          "Queso",
+          "Porción de papas"
+        ],
+        "Precio": "$20.000"
+      }
+
+]

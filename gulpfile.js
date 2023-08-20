@@ -13,7 +13,8 @@ sass.compiler = require('dart-sass');
 const paths = {
     imagenes:'src/img/**/*',
     scss: './src/scss/**/*.scss',
-    js: 'src/js/**/*.js'
+    js: 'src/js/**/*.js',
+    json:'src/json/**/*'
 }
 
 function compilarSass() { //tarea para aplicarle sass al archivo que puse en la direccion src
@@ -30,10 +31,16 @@ function indivCss(){
     .pipe(dest("./build/css"))
 }
 
+function indivJson(){
+    return src(paths.json)
+    .pipe(dest('./build/json'))
+}
+
 function watchArchivos(){
     watch(paths.scss, compilarSass);
     watch(paths.js, indivJavascript);
     watch(paths.scss, indivCss);
+    watch(paths.json, indivJson);
 }
 
 //funcion que crea archivos js en la carpeta build por separado cada uno
@@ -71,5 +78,6 @@ exports.imagenes = imagenes;
 exports.versionWebp = versionWebp;
 exports.indivJavascript = indivJavascript;
 exports.indivCss = indivCss;
+exports.indivJson = indivJson;
 
-exports.default = series(compilarSass,watchArchivos, imagenes,indivJavascript,indivCss);
+exports.default = series(compilarSass,watchArchivos, imagenes,indivJavascript,indivCss,indivJson);
