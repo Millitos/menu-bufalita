@@ -15,3 +15,7 @@ document.addEventListener('DOMContentLoaded',function(){
 function redirectToBebidas(){
     window.location.href = 'bebidas.html';
 }
+
+function redirectToHamburguesas(){
+    window.location.href = 'hamburguesas.html'
+}

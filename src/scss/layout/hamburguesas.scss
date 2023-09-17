@@ -1,0 +1,182 @@
+@import '../base/variables';
+@import '../base/normalize';
+@import '../base/mixins';
+@import '../base/globales';
+
+body{
+    font-family: $fuentePrincipal;
+    font-size: 1.6rem;
+    
+    margin: 0; /* Elimina los márgenes por defecto del body */
+    padding: 0; /* Elimina el padding por defecto del body */
+    background-image: url('../../../build/img/fondo.jpg'); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Cubre toda la pantalla */
+    background-repeat: no-repeat; /* No se repite */
+}
+
+//para ocultar el resto de la pagina mientras tanto
+.hidden{
+    overflow: hidden;
+}
+
+//para esconder el div contenedor del logo y el loader
+
+
+.lds-ring {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+.lds-ring div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border: 8px solid #181818;
+    border-radius: 50%;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: #181818 transparent transparent transparent;
+}
+.lds-ring div:nth-child(1) {
+    animation-delay: -0.45s;
+}
+.lds-ring div:nth-child(2) {
+    animation-delay: -0.3s;
+}
+.lds-ring div:nth-child(3) {
+    animation-delay: -0.15s;
+}
+@keyframes lds-ring {
+    0% {
+    transform: rotate(0deg);
+    }
+    100% {
+    transform: rotate(360deg);
+    }
+}
+
+.hide{
+    display: none;
+}
+//centro el spinner 
+.loader{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .logoSpinner{
+        width: 20rem;
+
+        img{
+            width: 100%;
+        }
+    }
+}
+
+//navbar
+.navbar{
+    background-color: $negro;
+}
+.div-container{
+    width: 100%;
+
+    .icon-background {
+        background-color: white; /* Color de fondo blanco */
+        padding: 5px; /* Espacio alrededor del icono */
+        border-radius: 50%; /* Para hacer el fondo circular */
+    }
+    
+    .container-flex{
+        width: fit-content;
+        display: flex;
+        flex-direction: row;
+        // margin: 0 auto;
+        width: 100%;
+    }
+    .navbar-brand{
+        margin: auto 0;
+    }
+    .navbar-logo{
+        width: 5rem;
+        margin: 0 auto;
+        img{
+            width: 100%;
+        }
+    }
+    
+}
+
+.img-container{
+    margin: $separacion/2;
+    img{
+        width: 100%;
+        border-radius: 2%;
+        border:5px solid $negro; 
+        background-color: rgba(255, 255, 255, 0.9); /* Color de fondo con transparencia */
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Sombra */
+        border-radius: 10px; /* Bordes redondeados */
+        // padding: 20px; /* Espaciado interior para el contenido */
+    }
+}
+
+.productos-container{
+    // padding: 0px $separacion/2;
+    .col-12{
+        padding: $separacion/4.9;
+    }
+    .card{
+        width: 10%;
+    }
+    .card-text{
+        width: 100%;
+        font-size: medium;
+    }
+    b{
+        // padding-right: 1rem;
+        font-size: large;
+    }
+    .price{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.col-md-3{
+    padding-top: $separacion/2;
+    @include tablet{ //quita esa columna de la parte de arriba cuando tiene el tamano de tablet
+        display: none;
+    }
+}
+.categorias-container{
+    background-color: $blanco;
+    width: 100%;
+    height: 100%;
+}
+
+.categorias{
+    padding: $separacion/3;
+    p{
+        // border-radius:5px ;
+        font-weight: $bold;
+        font-size: larger;
+        background-color: antiquewhite;
+        border-start-end-radius: 15px;
+        border-end-start-radius: 15px;
+        text-align: center;
+    }
+    
+}
+
+.card-body{
+    background-color: rgba(255, 255, 255, 0.9); /* Color de fondo con transparencia */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Sombra */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 20px; /* Espaciado interior para el contenido */
+
+    text-align: left;
+}

@@ -347,21 +347,18 @@ html {
 }
 
 body {
-  font-family: "Abel", sans-serif;
+  font-family: "Roboto Mono", monospace;
   font-size: 1.6rem;
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#45484d+0,000000+100;Black+3D+%231 */
-  background: #45484d;
-  /* Old browsers */
-  background: -moz-radial-gradient(center, ellipse cover, #45484d 0%, black 100%);
-  /* FF3.6-15 */
-  background: -webkit-radial-gradient(center, ellipse cover, #45484d 0%, black 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: radial-gradient(ellipse at center, #45484d 0%, black 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#45484d", endColorstr="#000000",GradientType=1 );
-  /* IE6-9 fallback on horizontal gradient */
-  background-repeat: no-repeat;
+  margin: 0;
+  /* Elimina los márgenes por defecto del body */
+  padding: 0;
+  /* Elimina el padding por defecto del body */
+  background-image: url("../../../build/img/fondo.jpg");
+  /* Ruta de la imagen de fondo */
   background-size: cover;
+  /* Cubre toda la pantalla */
+  background-repeat: no-repeat;
+  /* No se repite */
 }
 body.fijar-body {
   overflow: hidden;
@@ -403,7 +400,7 @@ h3 {
 }
 
 body {
-  font-family: "Abel", sans-serif;
+  font-family: "Roboto Mono", monospace;
   font-size: 1.6rem;
   margin: 0;
   /* Elimina los márgenes por defecto del body */

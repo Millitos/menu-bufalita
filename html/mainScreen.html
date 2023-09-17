@@ -41,55 +41,49 @@
         <main>
             <div class="containerButtons">
 
-                <button class="btn btnMenu" type="button" onclick="redirectToNewPage()">
-                    <div class="card mb-3" style="max-width: 540px;">
-                        <div class="row g-0">
-                            <div class="col-md-4 iconContainer">
-                                <h3><i class="bi bi-clipboard2"></i> </h3>
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body textContainer">
-                                    <p class="card-text">Menu</p>
-                                </div>
-                            </div>
+                <button class="btn btnMenu btn-danger" type="button" onclick="redirectToNewPage()">
+                    <div class="menu-container">
+                        <div class="logo-container">
+                            <h3><i class="bi bi-clipboard2"></i> </h3>
+                        </div>
+                        <div class="text-container">
+                            <h3>Menú</h3>
                         </div>
                     </div>
                 </button>
 
-                <button class="btn btnDomi" type="button">
-                    <div class="card mb-3" style="max-width: 540px;">
-                        <div class="row g-0">
-                            <div class="col-md-4 iconContainer">
-                                <h3><i class="bi bi-truck"></i> </h3>
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body textContainer">
-                                    <p class="card-text">Domicilios</p>
-                                </div>
-                            </div>
+                <button class="btn btnDomi  btn-danger" type="button">
+                    <div class="menu-container">
+                        <div class="logo-container">
+                            <h3><i class="bi bi-truck"></i> </h3>
+                        </div>
+                        <div class="text-container">
+                            <h3>Domicilios</h3>
                         </div>
                     </div>
                 </button>
 
-                <button class="btn btnUbi" type="button">
-                    <div class="card mb-3" style="max-width: 540px;">
-                        <div class="row g-0">
-                            <div class="col-md-4 iconContainer">
-                                <h3><i class="bi bi-geo-alt-fill"></i> </h3>
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body textContainer">
-
-                                    <p class="card-text">Nuestra ubicación</p>
-
-                                </div>
-                            </div>
+                <button class="btn btnUbi  btn-danger" type="button">
+                    <div class="menu-container">
+                        <div class="logo-container">
+                            <h3><i class="bi bi-geo-alt-fill"></i></h3>
+                        </div>
+                        <div class="text-container">
+                            <h3>Ubicación</h3>
                         </div>
                     </div>
                 </button>
 
-                <button class="btn btnAbout" type="button">
-                    <div class="card mb-3" style="max-width: 540px;">
+                <button class="btn btnAbout  btn-danger" type="button">
+                    <div class="menu-container">
+                        <div class="logo-container">
+                            <h3><i class="bi bi-file-person"></i></h3>
+                        </div>
+                        <div class="text-container">
+                            <h3>Nosotros</h3>
+                        </div>
+                    </div>
+                    <!-- <div class="card mb-3" style="max-width: 540px;">
                         <div class="row g-0">
                             <div class="col-md-4 iconContainer">
                                 <h3><i class="bi bi-file-person"></i> </h3>
@@ -100,7 +94,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </button>
 
             </div>
@@ -111,35 +105,38 @@
     <div class="container-fluid footer">
         <footer>
             <section class="horario">
-                <h4>Horario</h4>
-                <ul>
-                    <li>Miercoles a Lunes: 5 - 10 pm</li>
-                </ul>
-                <h4>Dirección</h4>
-                <ul>
-                    <li>Carrera 2 No 5-38 Centro</li>
-                </ul>
+                <div class="horario-container">
+                    <h4>Horario</h4>
+                    <ul>
+                        <li>Miercoles a Lunes: 5 - 10 pm</li>
+                    </ul>
+                </div>
+                <div class="direccion-container">
+                    <h4>Dirección</h4>
+                    <ul>
+                        <li>Carrera 2 No 5-38 Centro</li>
+                    </ul>
+                </div>
             </section>
 
-            <div class="containerLogoFooter">
-                <img src="/build/img/logo.png" alt="Bufalita Express">
-            </div>
-
             <section class="contrataciones">
-                <h4>Contrataciones</h4>
-                <ul>
-                    <li>millosenrique
-                        jinete
-                        @hotmail.com
-                    </li>
-                </ul>
-                <h4>Teléfono</h4>
-                <ul>
-                    <li>+57 3132635282</li>
-                </ul>
+                <div class="contrataciones-container">
+                    <h4>Contrataciones</h4>
+                    <ul>
+                        <li>millosenriquejinete@hotmail.com
+                        </li>
+                    </ul>
+                </div>
+                <div class="telefono-container">
+                    <h4>Teléfono</h4>
+                    <ul>
+                        <li>+57 3132635282</li>
+                    </ul>
+                </div>
             </section>
         </footer>
     </div>
+    
     <script src="/build/js/mainScreen.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"

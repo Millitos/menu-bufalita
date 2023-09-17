@@ -82,83 +82,86 @@
 }
 
 main{
-    .btnMenu{
-        background-color: $amarillo;
-        
-    }
-    .btnDomi{
-        background-color: $azul;
-    }
-    .btnUbi{
-        background-color: $naranja;
-    }
-    .btnAbout{
-        background-color: $rojo;
-    }
-
+    
     .btn{
-        box-shadow: 0px 5px 8px #fff;
+        box-shadow: 0px 5px 8px #b63737;
     }
 
     .containerButtons{
         display: flex;
         flex-direction: column;
         row-gap: $separacion/3;
-    }
-    .card{
-        margin-top: 10px;
-        width: 100%;
-    }
-
-    .textContainer{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .iconContainer {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 2px;
-    }
-
-    .card-text{
-        text-align: center;
-        //white-space: nowrap;
-        //width: 20rem;
+        width: 25rem;
     }
 }
 
+.btn{
+    width: 100%;
+    .menu-container{
+        @include gridCol(2,$separacion/4);
+        width: min-content;
+        margin: auto;
+        align-items: center;
+    
+    }
+    .text-container{
+        h3{
+            font-size:large;
+        }
+    }
+}
+
+
+
+
 .footer{
-    margin-top: $separacion;
+    margin-top: $separacion/2;
     background-color: $blanco;
-        
+    // color: $blanco;
+
     .horario {
+        display: flex;
+        flex-direction: row;
+        // justify-content: space-between;
+        height: fit-content;
+
         h4{
             font-weight: $bold;
             font-size: large;
+            text-align: center;
+        }
+        .horario-container{
+            width: 50%;
+
         }
     }
 
     footer{
-        @include gridCol(3,$separacion/4);
-        //text-align: center;
+        @include gridRow(2,$separacion/4);
+        // text-align: center;
+        // height: 1rem;
+        width: 100%;
     }
 
-    .containerLogoFooter{
-        display: flex;
-        align-items: center;
-        width: 15rem;
-        margin: 0 auto;
-        img{
-            width: 100%;
-        }
-    }
+    
     .contrataciones{
+        display: flex;
+        flex-direction: row;
+        // justify-content: space-between;
+        height: fit-content;
         h4{
             font-weight: $bold;
             font-size: large;
+            text-align: center;
+        }
+
+        .contrataciones-container{
+            width: 50%;
+            word-wrap: break-word;
+        }
+
+        .telefono-container{
+            width: 50%;
         }
     }
 }

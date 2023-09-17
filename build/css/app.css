@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -347,21 +348,18 @@ html {
 }
 
 body {
-  font-family: "Abel", sans-serif;
+  font-family: "Roboto Mono", monospace;
   font-size: 1.6rem;
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#45484d+0,000000+100;Black+3D+%231 */
-  background: #45484d;
-  /* Old browsers */
-  background: -moz-radial-gradient(center, ellipse cover, #45484d 0%, black 100%);
-  /* FF3.6-15 */
-  background: -webkit-radial-gradient(center, ellipse cover, #45484d 0%, black 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: radial-gradient(ellipse at center, #45484d 0%, black 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#45484d", endColorstr="#000000",GradientType=1 );
-  /* IE6-9 fallback on horizontal gradient */
-  background-repeat: no-repeat;
+  margin: 0;
+  /* Elimina los márgenes por defecto del body */
+  padding: 0;
+  /* Elimina el padding por defecto del body */
+  background-image: url("../../../build/img/fondo.jpg");
+  /* Ruta de la imagen de fondo */
   background-size: cover;
+  /* Cubre toda la pantalla */
+  background-repeat: no-repeat;
+  /* No se repite */
 }
 body.fijar-body {
   overflow: hidden;
@@ -477,68 +475,68 @@ h3 {
   width: 100%;
 }
 
-main .btnMenu {
-  background-color: #e3bb01;
-}
-main .btnDomi {
-  background-color: #40bcf1;
-}
-main .btnUbi {
-  background-color: #e06a20;
-}
-main .btnAbout {
-  background-color: #ff1f05;
-}
 main .btn {
-  box-shadow: 0px 5px 8px #fff;
+  box-shadow: 0px 5px 8px #b63737;
 }
 main .containerButtons {
   display: flex;
   flex-direction: column;
   row-gap: 1.6666666667rem;
+  width: 25rem;
 }
-main .card {
-  margin-top: 10px;
+
+.btn {
   width: 100%;
 }
-main .textContainer {
-  display: flex;
-  justify-content: center;
+.btn .menu-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+  width: min-content;
+  margin: auto;
   align-items: center;
 }
-main .iconContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 2px;
-}
-main .card-text {
-  text-align: center;
+.btn .text-container h3 {
+  font-size: large;
 }
 
 .footer {
-  margin-top: 5rem;
+  margin-top: 2.5rem;
   background-color: #fefffb;
+}
+.footer .horario {
+  display: flex;
+  flex-direction: row;
+  height: fit-content;
 }
 .footer .horario h4 {
   font-weight: 700;
   font-size: large;
+  text-align: center;
+}
+.footer .horario .horario-container {
+  width: 50%;
 }
 .footer footer {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   gap: 1.25rem;
-}
-.footer .containerLogoFooter {
-  display: flex;
-  align-items: center;
-  width: 15rem;
-  margin: 0 auto;
-}
-.footer .containerLogoFooter img {
   width: 100%;
+}
+.footer .contrataciones {
+  display: flex;
+  flex-direction: row;
+  height: fit-content;
 }
 .footer .contrataciones h4 {
   font-weight: 700;
   font-size: large;
+  text-align: center;
+}
+.footer .contrataciones .contrataciones-container {
+  width: 50%;
+  word-wrap: break-word;
+}
+.footer .contrataciones .telefono-container {
+  width: 50%;
 }
