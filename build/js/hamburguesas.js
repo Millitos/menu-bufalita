@@ -2,12 +2,15 @@
 let body = document.querySelector('.hidden');
 let loader = document.querySelector('.loader');
 
+
+//funcion que carga el loader
 document.addEventListener('DOMContentLoaded',function(){
     setTimeout(function(){
         loader.className = 'hide';
         body.classList.remove('hidden');
-    },2000)
+    },1000)
     
+    //funcion que hace la conexion con el archivo json
     conexion();
     
 })
@@ -35,11 +38,12 @@ function conexion(){
 
 }
 
+//funcion para cargar dinamicamente los elementos del json
 function cargarHamburguesas(data){
     const containerProductos = document.querySelector('.productos-container');
     // console.log(data);
     data.forEach((dat)=>{
-        console.log(dat);
+        // console.log(dat);
         const div = document.createElement('div');
         div.classList.add('col-12','col-lg-4','col-md-6');
 

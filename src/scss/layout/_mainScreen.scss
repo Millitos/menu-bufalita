@@ -14,10 +14,10 @@
     width: 64px;
     height: 64px;
     margin: 8px;
-    border: 8px solid #fff;
+    border: 8px solid $negro;
     border-radius: 50%;
     animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
-    border-color: #fff transparent transparent transparent;
+    border-color: $negro transparent transparent transparent;
 }
 .lds-ring div:nth-child(1) {
     animation-delay: -0.45s;
@@ -73,7 +73,6 @@
     .containerLogo{
         width: 30rem;
         
-
         img{
             width: 100%;
             
@@ -84,7 +83,9 @@
 main{
     
     .btn{
-        box-shadow: 0px 5px 8px #b63737;
+        box-shadow: 0px 5px 8px $negro;
+        border-radius: 15px 15px 15px 15px;
+        
     }
 
     .containerButtons{
@@ -111,57 +112,112 @@ main{
     }
 }
 
-
-
-
-.footer{
-    margin-top: $separacion/2;
-    background-color: $blanco;
-    // color: $blanco;
-
-    .horario {
+footer{
+    margin-top: $separacion;
+    div{
+        // background-color: #b63737;
         display: flex;
-        flex-direction: row;
-        // justify-content: space-between;
-        height: fit-content;
-
-        h4{
-            font-weight: $bold;
-            font-size: large;
-            text-align: center;
-        }
-        .horario-container{
-            width: 50%;
-
-        }
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
-
-    footer{
-        @include gridRow(2,$separacion/4);
-        // text-align: center;
-        // height: 1rem;
-        width: 100%;
+    p{
+        margin: 0;
+        font-weight: $black;
+        font-size: x-large;
+        
     }
-
-    
-    .contrataciones{
-        display: flex;
-        flex-direction: row;
-        // justify-content: space-between;
-        height: fit-content;
-        h4{
-            font-weight: $bold;
-            font-size: large;
-            text-align: center;
-        }
-
-        .contrataciones-container{
-            width: 50%;
-            word-wrap: break-word;
-        }
-
-        .telefono-container{
-            width: 50%;
-        }
+    a{
+        font-size: xx-large;
+        color: $negro;
+        font-weight:$black ;
     }
 }
+
+
+// .footer{
+//     margin-top: $separacion/2;
+//     background-color: $blanco;
+//     // color: $blanco;
+    
+//     .horario {
+//         display: flex;
+//         flex-direction: row;
+//         // justify-content: space-between;
+//         height: fit-content;
+
+//         @include telefono{
+//             display: flex;
+//             flex-direction: column;
+//             text-align: center;
+//         }
+
+//         h4{
+//             font-weight: $bold;
+//             font-size: large;
+//             text-align: center;
+//         }
+//         .horario-container{
+//             width: 50%;
+//             @include telefono{
+//                 text-align: center;
+//                 margin: 0 auto;
+//                 width: 100%;
+//             }
+
+//         }
+//         .direccion-container{
+//             width: 50%;
+//             @include telefono{
+//                 text-align: center;
+//                 margin: 0 auto;
+//                 width: 100%;
+//             }
+//         }
+//     }
+
+//     footer{
+//         @include gridRow(2,$separacion/4);
+//         // text-align: center;
+//         // height: 1rem;
+//         width: 100%;
+//     }
+
+    
+//     .contrataciones{
+//         display: flex;
+//         flex-direction: row;
+//         // justify-content: space-between;
+//         height: fit-content;
+//         @include telefono{
+//             display: flex;
+//             flex-direction: column;
+//             text-align: center;
+//         }
+
+//         h4{
+//             font-weight: $bold;
+//             font-size: large;
+//             text-align: center;
+//         }
+
+//         .contrataciones-container{
+//             width: 50%;
+//             word-wrap: break-word;
+//             @include telefono{
+//                 text-align: center;
+//                 margin: 0 auto;
+//                 width: 100%;
+//             }
+//         }
+
+//         .telefono-container{
+//             width: 50%;
+//             @include telefono{
+//                 text-align: center;
+//                 margin: 0 auto;
+//                 width: 100%;
+//             }
+//         }
+//     }
+// }

@@ -359,6 +359,7 @@ body {
   /* Cubre toda la pantalla */
   background-repeat: no-repeat;
   /* No se repite */
+  background-attachment: fixed;
 }
 body.fijar-body {
   overflow: hidden;

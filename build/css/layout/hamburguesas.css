@@ -359,6 +359,7 @@ body {
   /* Cubre toda la pantalla */
   background-repeat: no-repeat;
   /* No se repite */
+  background-attachment: fixed;
 }
 body.fijar-body {
   overflow: hidden;
@@ -483,13 +484,11 @@ body {
 .div-container {
   width: 100%;
 }
-.div-container .icon-background {
-  background-color: white;
-  /* Color de fondo blanco */
+.div-container .bi {
+  color: #fefffb;
   padding: 5px;
   /* Espacio alrededor del icono */
-  border-radius: 50%;
-  /* Para hacer el fondo circular */
+  font-size: larger;
 }
 .div-container .container-flex {
   width: fit-content;
@@ -509,7 +508,8 @@ body {
 }
 
 .img-container {
-  margin: 2.5rem;
+  padding: 1.0204081633rem;
+  padding-top: 2.5rem;
 }
 .img-container img {
   width: 100%;
@@ -517,7 +517,7 @@ body {
   border: 5px solid #181818;
   background-color: rgba(255, 255, 255, 0.9);
   /* Color de fondo con transparencia */
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 5px 8px #181818;
   /* Sombra */
   border-radius: 10px;
   /* Bordes redondeados */
@@ -567,11 +567,26 @@ body {
   border-end-start-radius: 15px;
   text-align: center;
 }
+.categorias h4 {
+  text-align: center;
+  border-start-end-radius: 15px;
+  border-end-start-radius: 15px;
+  font-size: larger;
+}
+.categorias h4:hover {
+  background-color: antiquewhite;
+}
+
+.categorias-container {
+  box-shadow: 0px 5px 8px #181818;
+  border-radius: 10px;
+  /* Bordes redondeados */
+}
 
 .card-body {
   background-color: rgba(255, 255, 255, 0.9);
   /* Color de fondo con transparencia */
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 5px 8px #181818;
   /* Sombra */
   border-radius: 10px;
   /* Bordes redondeados */

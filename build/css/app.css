@@ -360,6 +360,7 @@ body {
   /* Cubre toda la pantalla */
   background-repeat: no-repeat;
   /* No se repite */
+  background-attachment: fixed;
 }
 body.fijar-body {
   overflow: hidden;
@@ -414,10 +415,10 @@ h3 {
   width: 64px;
   height: 64px;
   margin: 8px;
-  border: 8px solid #fff;
+  border: 8px solid #181818;
   border-radius: 50%;
   animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
-  border-color: #fff transparent transparent transparent;
+  border-color: #181818 transparent transparent transparent;
 }
 
 .lds-ring div:nth-child(1) {
@@ -476,7 +477,8 @@ h3 {
 }
 
 main .btn {
-  box-shadow: 0px 5px 8px #b63737;
+  box-shadow: 0px 5px 8px #181818;
+  border-radius: 15px 15px 15px 15px;
 }
 main .containerButtons {
   display: flex;
@@ -500,43 +502,22 @@ main .containerButtons {
   font-size: large;
 }
 
-.footer {
-  margin-top: 2.5rem;
-  background-color: #fefffb;
+footer {
+  margin-top: 5rem;
 }
-.footer .horario {
+footer div {
   display: flex;
-  flex-direction: row;
-  height: fit-content;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-.footer .horario h4 {
-  font-weight: 700;
-  font-size: large;
-  text-align: center;
+footer p {
+  margin: 0;
+  font-weight: 900;
+  font-size: x-large;
 }
-.footer .horario .horario-container {
-  width: 50%;
-}
-.footer footer {
-  display: grid;
-  grid-template-rows: repeat(2, 1fr);
-  gap: 1.25rem;
-  width: 100%;
-}
-.footer .contrataciones {
-  display: flex;
-  flex-direction: row;
-  height: fit-content;
-}
-.footer .contrataciones h4 {
-  font-weight: 700;
-  font-size: large;
-  text-align: center;
-}
-.footer .contrataciones .contrataciones-container {
-  width: 50%;
-  word-wrap: break-word;
-}
-.footer .contrataciones .telefono-container {
-  width: 50%;
+footer a {
+  font-size: xx-large;
+  color: #181818;
+  font-weight: 900;
 }

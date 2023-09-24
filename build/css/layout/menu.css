@@ -359,6 +359,7 @@ body {
   /* Cubre toda la pantalla */
   background-repeat: no-repeat;
   /* No se repite */
+  background-attachment: fixed;
 }
 body.fijar-body {
   overflow: hidden;
@@ -483,13 +484,11 @@ body {
 .div-container {
   width: 100%;
 }
-.div-container .icon-background {
-  background-color: white;
-  /* Color de fondo blanco */
+.div-container .bi {
+  color: #fefffb;
   padding: 5px;
   /* Espacio alrededor del icono */
-  border-radius: 50%;
-  /* Para hacer el fondo circular */
+  font-size: larger;
 }
 .div-container .container-flex {
   width: fit-content;

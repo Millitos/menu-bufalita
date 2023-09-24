@@ -85,10 +85,10 @@ body{
 .div-container{
     width: 100%;
 
-    .icon-background {
-        background-color: white; /* Color de fondo blanco */
+    .bi{
+        color: $blanco;
         padding: 5px; /* Espacio alrededor del icono */
-        border-radius: 50%; /* Para hacer el fondo circular */
+        font-size: larger;
     }
     
     .container-flex{
@@ -112,13 +112,15 @@ body{
 }
 
 .img-container{
-    margin: $separacion/2;
+    padding: 1.0204081633rem;
+    padding-top: $separacion/2;
+
     img{
         width: 100%;
         border-radius: 2%;
         border:5px solid $negro; 
         background-color: rgba(255, 255, 255, 0.9); /* Color de fondo con transparencia */
-        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Sombra */
+        box-shadow: 0px 5px 8px $negro; /* Sombra */
         border-radius: 10px; /* Bordes redondeados */
         // padding: 20px; /* Espaciado interior para el contenido */
     }
@@ -169,12 +171,27 @@ body{
         border-end-start-radius: 15px;
         text-align: center;
     }
+    h4{
+        text-align: center;
+        border-start-end-radius: 15px;
+        border-end-start-radius: 15px;
+        font-size: larger;
+        &:hover{
+            background-color: antiquewhite;
+        }
+        
+    }
     
+}
+
+.categorias-container{
+    box-shadow: 0px 5px 8px $negro; 
+    border-radius: 10px; /* Bordes redondeados */
 }
 
 .card-body{
     background-color: rgba(255, 255, 255, 0.9); /* Color de fondo con transparencia */
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Sombra */
+    box-shadow: 0px 5px 8px $negro; /* Sombra */
     border-radius: 10px; /* Bordes redondeados */
     padding: 20px; /* Espaciado interior para el contenido */
 
