@@ -180,6 +180,9 @@ body{
             background-color: antiquewhite;
         }
         
+        a{
+            color: $negro;
+        }
     }
     
 }
@@ -196,4 +199,10 @@ body{
     padding: 20px; /* Espaciado interior para el contenido */
 
     text-align: left;
+}
+
+.modaltest {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

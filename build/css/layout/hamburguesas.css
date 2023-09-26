@@ -576,6 +576,9 @@ body {
 .categorias h4:hover {
   background-color: antiquewhite;
 }
+.categorias h4 a {
+  color: #181818;
+}
 
 .categorias-container {
   box-shadow: 0px 5px 8px #181818;
@@ -593,4 +596,10 @@ body {
   padding: 20px;
   /* Espaciado interior para el contenido */
   text-align: left;
+}
+
+.modaltest {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
