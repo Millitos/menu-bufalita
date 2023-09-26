@@ -150,9 +150,19 @@ body{
 
 .col-md-3{
     padding-top: $separacion/2;
-    @include tablet{ //quita esa columna de la parte de arriba cuando tiene el tamano de tablet
-        display: none;
+    .botones{
+        padding-left: 1.0204081633rem;
+        @include mintablet{
+            display: none;
+        }
+       
     }
+    .categorias-container{
+        @include tablet{ //quita esa columna de la parte de arriba cuando tiene el tamano de tablet
+            display: none;
+          }
+    }
+    
 }
 .categorias-container{
     background-color: $blanco;
@@ -171,11 +181,11 @@ body{
         border-end-start-radius: 15px;
         text-align: center;
     }
-    h4{
+    h5{
         text-align: center;
         border-start-end-radius: 15px;
         border-end-start-radius: 15px;
-        font-size: larger;
+        font-size: medium;
         &:hover{
             background-color: antiquewhite;
         }
@@ -205,4 +215,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+
+    .modal-title{
+        font-weight: $black;
+    }
 }

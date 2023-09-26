@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded',function(){
         body.classList.remove('hidden');
     },1000)
     
-    // console.log('ola');
+    
     
 })
 

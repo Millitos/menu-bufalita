@@ -50,11 +50,17 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-3">
+
+                    <div class="botones">
+                        <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">Adicionales</button>
+                    </div>
+
                     <div class="categorias-container">
                         <div class="categorias">
                             <p>Categorías</p>
-                            <h4>Hamburguesas</h4>
-                            <h4><a href="">Adicionales</a></h4>
+                            <h5>Hamburguesas</h5>
+                            <h5><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Adicionales</a></h5>
 
                         </div>
                     </div>
@@ -95,23 +101,32 @@
                 <div class="modal-dialog modal-lg">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Adicionales</h5>
+                            <h4 class="modal-title" id="exampleModalLabel">Adicionales</h4>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                            <div class="card" style="width: 18rem;">
-                                <img src="..." class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                                </div>
-                            </div>
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <td colspan="2">Los adicionales se pueden agregar a todos los productos</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Carne de búfalo <b>$8000</b></td>
+                                        <td>Carne de búfalo <b>$8000</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Carne de búfalo <b>$8000</b></td>
+                                        <td>Carne de búfalo <b>$8000</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Carne de búfalo <b>$8000</b></td>
+                                        <td>Carne de búfalo <b>$8000</b></td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-
                         </div>
                     </div>
                 </div>

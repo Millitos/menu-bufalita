@@ -1,11 +1,18 @@
 @mixin telefono{
-    @media (max-width: 480px) {
+    @media (min-width: 480px) {
         @content; //toma el contenido pasado como argumentos
     }
 }
 
+@mixin mintablet{
+    @media (min-width: 768px) {
+        @content; 
+    }
+}
+
+
 @mixin tablet{
-    @media (max-width: 768px) {
+    @media (max-width: 767px) {
         @content; //toma el contenido pasado como argumentos
     }
 }
