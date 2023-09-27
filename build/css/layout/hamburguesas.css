@@ -507,6 +507,15 @@ body {
   width: 100%;
 }
 
+.main {
+  padding: 0px 15% 0px;
+}
+@media (max-width: 768px) {
+  .main {
+    padding: 0;
+  }
+}
+
 .img-container {
   padding: 1.0204081633rem;
   padding-top: 2.5rem;
@@ -613,4 +622,7 @@ body {
 }
 .modaltest .modal-title {
   font-weight: 900;
+}
+.modaltest .modal-body td {
+  border: 1px solid #181818;
 }

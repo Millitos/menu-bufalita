@@ -10,9 +10,15 @@
     }
 }
 
-
+//esta este mixin para el btn que se agg arriba de adicionales
 @mixin tablet{
     @media (max-width: 767px) {
+        @content; //toma el contenido pasado como argumentos
+    }
+}
+
+@mixin tablet768{
+    @media (max-width: 768px) {
         @content; //toma el contenido pasado como argumentos
     }
 }

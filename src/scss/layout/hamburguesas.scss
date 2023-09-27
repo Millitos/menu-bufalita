@@ -111,6 +111,14 @@ body{
     
 }
 
+.main{
+    padding: 0px 15% 0px;
+    @include tablet768{
+        padding: 0;
+    }
+}
+
+
 .img-container{
     padding: 1.0204081633rem;
     padding-top: $separacion/2;
@@ -155,12 +163,11 @@ body{
         @include mintablet{
             display: none;
         }
-       
     }
     .categorias-container{
         @include tablet{ //quita esa columna de la parte de arriba cuando tiene el tamano de tablet
             display: none;
-          }
+        }
     }
     
 }
@@ -218,5 +225,11 @@ body{
 
     .modal-title{
         font-weight: $black;
+    }
+
+    .modal-body{
+        td{
+            border: 1px solid $negro;
+        }
     }
 }

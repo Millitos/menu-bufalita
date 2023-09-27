@@ -45,7 +45,7 @@ function cargarHamburguesas(data){
     data.forEach((dat)=>{
         // console.log(dat);
         const div = document.createElement('div');
-        div.classList.add('col-12','col-lg-4','col-md-6');
+        div.classList.add('col-12','col-lg-6','col-md-6','col-xxl-4');
 
         div.innerHTML = `<div class="card" style="width: 100%;">
                             <div class="card-body">
