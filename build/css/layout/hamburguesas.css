@@ -626,3 +626,10 @@ body {
 .modaltest .modal-body td {
   border: 1px solid #181818;
 }
+.modaltest .tdAdic {
+  display: flex;
+  justify-content: space-between;
+}
+.modaltest .tdAdic p {
+  font-size: medium;
+}

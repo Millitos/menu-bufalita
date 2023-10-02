@@ -1,0 +1,62 @@
+[
+    {
+        "id": "1",
+        "nombre": "Porción de papas",
+        "Precio": "$5000"
+    },
+    {
+        "id": "2",
+        "nombre": "Chorizo grande 165gr",
+        "Precio": "$8000"
+    },
+    {
+        "id": "3",
+        "nombre": "Chorizo pequeño 100gr",
+        "Precio": "$6000"
+    },
+    {
+        "id": "4",
+        "nombre": "Porción de maduro frito",
+        "Precio": "$2000"
+    },
+    {
+        "id": "5",
+        "nombre": "Porción de maíz",
+        "Precio": "$2000" 
+    },
+    {
+        "id": "6",
+        "nombre": "Tocineta",
+        "Precio": "$2000"
+    },
+    {
+        "id": "7",
+        "nombre": "Queso tajado",
+        "Precio": "$2000"  
+    },
+    {
+        "id": "8",
+        "nombre": "Porción de pollo",
+        "Precio": "$5000"
+    },
+    {
+        "id": "9",
+        "nombre": "Carne de búfalo 145gr",
+        "Precio": "$8000"
+    },
+    {
+        "id": "10",
+        "nombre": "Salchicha americana",
+        "Precio": "$5000"
+    },
+    {
+        "id": "11",
+        "nombre": "Ensalada",
+        "Precio": "$3000"
+    },
+    {
+        "id": "12",
+        "nombre": "Carne de búfalo picante 145gr",
+        "Precio": "$10000"
+    }
+]

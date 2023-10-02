@@ -232,4 +232,12 @@ body{
             border: 1px solid $negro;
         }
     }
+
+    .tdAdic{
+        display: flex;
+        justify-content: space-between;
+        p{
+            font-size: medium;
+        }
+    }
 }

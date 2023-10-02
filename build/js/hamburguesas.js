@@ -1,3 +1,5 @@
+// import {addAdicionales} from "./adicionales.js";
+
 //loader
 let body = document.querySelector('.hidden');
 let loader = document.querySelector('.loader');
@@ -8,6 +10,7 @@ document.addEventListener('DOMContentLoaded',function(){
     setTimeout(function(){
         loader.className = 'hide';
         body.classList.remove('hidden');
+        // addAdicionales();
     },1000)
     
     //funcion que hace la conexion con el archivo json
