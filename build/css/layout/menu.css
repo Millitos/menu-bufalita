@@ -510,6 +510,9 @@ body {
 .menus {
   margin-top: 3rem;
 }
+.menus .row {
+  padding: 0px 7%;
+}
 
 .col-sm-6 {
   box-sizing: border-box;

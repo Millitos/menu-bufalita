@@ -17,5 +17,9 @@ function redirectToBebidas(){
 }
 
 function redirectToHamburguesas(){
-    window.location.href = 'hamburguesas.html'
+    window.location.href = 'hamburguesas.html';
+}
+
+function redirectToPerros(){
+    window.location.href = 'perros.html';
 }

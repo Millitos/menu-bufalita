@@ -1,0 +1,278 @@
+@import '../base/variables';
+@import '../base/normalize';
+@import '../base/mixins';
+@import '../base/globales';
+
+body{
+    font-family: $fuentePrincipal;
+    font-size: 1.6rem;
+    
+    margin: 0; /* Elimina los márgenes por defecto del body */
+    padding: 0; /* Elimina el padding por defecto del body */
+    background-image: url('../../../build/img/fondo.jpg'); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Cubre toda la pantalla */
+    background-repeat: no-repeat; /* No se repite */
+}
+
+//para ocultar el resto de la pagina mientras tanto
+.hidden{
+    overflow: hidden;
+}
+
+//para esconder el div contenedor del logo y el loader
+
+
+.lds-ring {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+.lds-ring div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border: 8px solid #181818;
+    border-radius: 50%;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: #181818 transparent transparent transparent;
+}
+.lds-ring div:nth-child(1) {
+    animation-delay: -0.45s;
+}
+.lds-ring div:nth-child(2) {
+    animation-delay: -0.3s;
+}
+.lds-ring div:nth-child(3) {
+    animation-delay: -0.15s;
+}
+@keyframes lds-ring {
+    0% {
+    transform: rotate(0deg);
+    }
+    100% {
+    transform: rotate(360deg);
+    }
+}
+
+.hide{
+    display: none;
+}
+//centro el spinner 
+.loader{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .logoSpinner{
+        width: 20rem;
+
+        img{
+            width: 100%;
+        }
+    }
+}
+
+//navbar
+.navbar{
+    background-color: $negro;
+}
+.div-container{
+    width: 100%;
+
+    .bi{
+        color: $blanco;
+        padding: 5px; /* Espacio alrededor del icono */
+        font-size: larger;
+    }
+    
+    .container-flex{
+        width: fit-content;
+        display: flex;
+        flex-direction: row;
+        // margin: 0 auto;
+        width: 100%;
+    }
+    .navbar-brand{
+        margin: auto 0;
+    }
+    .navbar-logo{
+        width: 5rem;
+        margin: 0 auto;
+        img{
+            width: 100%;
+        }
+    }
+    
+}
+
+.main{
+    padding: 0px 15% 0px;
+    @include tablet768{
+        padding: 0;
+    }
+}
+
+
+.img-container{
+    padding: 1.0204081633rem;
+    padding-top: $separacion/2;
+
+    img{
+        width: 100%;
+        border-radius: 2%;
+        border:5px solid $negro; 
+        background-color: rgba(255, 255, 255, 0.9); /* Color de fondo con transparencia */
+        box-shadow: 0px 5px 8px $negro; /* Sombra */
+        border-radius: 10px; /* Bordes redondeados */
+        // padding: 20px; /* Espaciado interior para el contenido */
+    }
+}
+
+.productos-container{
+    // padding: 0px $separacion/2;
+    .col-12{
+        padding: $separacion/4.9;
+    }
+
+    .card-text{
+        width: 100%;
+        font-size: medium;
+    }
+    b{
+        // padding-right: 1rem;
+        font-size: large;
+    }
+    .price{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.col-md-3{
+    padding-top: $separacion/2;
+    .botones{
+        padding-left: 1.0204081633rem;
+        @include mintablet{
+            display: none;
+        }
+    }
+    .categorias-container{
+        @include tablet{ //quita esa columna de la parte de arriba cuando tiene el tamano de tablet
+            display: none;
+        }
+    }
+    
+}
+.categorias-container{
+    background-color: $blanco;
+    width: 100%;
+    height: 100%;
+}
+
+.categorias{
+    padding: $separacion/3;
+    p{
+        // border-radius:5px ;
+        font-weight: $bold;
+        font-size: larger;
+        background-color: antiquewhite;
+        border-start-end-radius: 15px;
+        border-end-start-radius: 15px;
+        text-align: center;
+    }
+    h5{
+        text-align: center;
+        border-start-end-radius: 15px;
+        border-end-start-radius: 15px;
+        font-size: medium;
+        &:hover{
+            background-color: antiquewhite;
+        }
+        
+        a{
+            color: $negro;
+        }
+    }
+    
+}
+
+.categorias-container{
+    box-shadow: 0px 5px 8px $negro; 
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+.card-body{
+    background-color: rgba(255, 255, 255, 0.9); /* Color de fondo con transparencia */
+    box-shadow: 0px 5px 8px $negro; /* Sombra */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 20px; /* Espaciado interior para el contenido */
+
+    text-align: left;
+}
+
+.modaltest {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .modal-title{
+        font-weight: $black;
+    }
+
+    .modal-body{
+        td{
+            border: 1px solid $negro;
+        }
+    }
+
+    .tdAdic{
+        display: flex;
+        justify-content: space-between;
+        p{
+            font-size: medium;
+        }
+    }
+}
+
+.modal2{
+    .card-title{
+        h3,p{
+            font-size: x-large;
+            font-weight: $bold;
+        }
+    }
+    .card-text{
+        font-weight: $delgada;
+        font-size: medium;
+    }
+    .papas,.combo{
+        h4{
+            font-size: large;
+            font-weight: $bold;
+        }
+        p{
+            font-weight: $delgada;
+            font-size: medium;
+            b{
+                font-weight: $bold;
+            }
+        }
+    }
+}
+
+.scroll-to-top {
+    position: fixed; //deja el btn fijo
+    bottom: 25px; /* Ajusta la distancia desde la parte inferior */
+    right: 25px; /* Ajusta la distancia desde la derecha */
+    display: none; /* Inicialmente, oculta el botón */
+    z-index: 999; /* Asegura que esté en la parte superior de otros elementos */
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+  }

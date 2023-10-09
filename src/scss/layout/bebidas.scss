@@ -111,3 +111,141 @@ body{
     }
     
 }
+
+.main{
+    padding: 0px 15% 0px;
+    @include tablet768{
+        padding: 0;
+    }
+}
+
+
+.img-container{
+    padding: 1.0204081633rem;
+    padding-top: $separacion/2;
+
+    img{
+        width: 100%;
+        border-radius: 2%;
+        border:5px solid $negro; 
+        background-color: rgba(255, 255, 255, 0.9); /* Color de fondo con transparencia */
+        box-shadow: 0px 5px 8px $negro; /* Sombra */
+        border-radius: 10px; /* Bordes redondeados */
+        // padding: 20px; /* Espaciado interior para el contenido */
+    }
+}
+
+.productos-container{
+    // padding: 0px $separacion/2;
+    .col-12{
+        padding: $separacion/4.9;
+    }
+    .card{
+        width: 100%;
+        box-shadow: 0px 5px 8px $negro; /* Sombra */
+        border-radius: 10px; /* Bordes redondeados */
+    }
+    .card-text{
+        width: 100%;
+        font-size: medium;
+    }
+    b{
+        // padding-right: 1rem;
+        font-size: large;
+    }
+    .price{
+        display: flex;
+        justify-content: space-between;
+    }
+    .col-4{
+        display: flex;
+        place-items: center;
+        justify-content: center;
+    }
+    img{
+        width: 100%;
+    }
+}
+
+.col-md-3{
+    padding-top: $separacion/2;
+    .botones{
+        padding-left: 1.0204081633rem;
+        @include mintablet{
+            display: none;
+        }
+    }
+    .categorias-container{
+        @include tablet{ //quita esa columna de la parte de arriba cuando tiene el tamano de tablet
+            display: none;
+        }
+    }
+    
+}
+.categorias-container{
+    background-color: $blanco;
+    width: 100%;
+    height: 100%;
+}
+
+.categorias{
+    padding: $separacion/3;
+    p{
+        // border-radius:5px ;
+        font-weight: $bold;
+        font-size: larger;
+        background-color: antiquewhite;
+        border-start-end-radius: 15px;
+        border-end-start-radius: 15px;
+        text-align: center;
+    }
+    h5{
+        text-align: center;
+        border-start-end-radius: 15px;
+        border-end-start-radius: 15px;
+        font-size: medium;
+        &:hover{
+            background-color: antiquewhite;
+        }
+        
+        a{
+            color: $negro;
+        }
+    }
+    
+}
+
+.categorias-container{
+    box-shadow: 0px 5px 8px $negro; 
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+
+.card-body{
+    width: 100%;
+    height: 100%;
+    padding: 20px; /* Espaciado interior para el contenido */
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    .card-title{
+        font-size: large;
+        font-weight: $regular;
+    }
+    .card-text{
+        font-weight: $bold;
+    }
+}
+
+.scroll-to-top {
+    position: fixed; //deja el btn fijo
+    bottom: 25px; /* Ajusta la distancia desde la parte inferior */
+    right: 25px; /* Ajusta la distancia desde la derecha */
+    display: none; /* Inicialmente, oculta el botón */
+    z-index: 999; /* Asegura que esté en la parte superior de otros elementos */
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+  }

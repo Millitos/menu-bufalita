@@ -535,9 +535,6 @@ body {
 .productos-container .col-12 {
   padding: 1.0204081633rem;
 }
-.productos-container .card {
-  width: 10%;
-}
 .productos-container .card-text {
   width: 100%;
   font-size: medium;
@@ -632,4 +629,39 @@ body {
 }
 .modaltest .tdAdic p {
   font-size: medium;
+}
+
+.modal2 .card-title h3, .modal2 .card-title p {
+  font-size: x-large;
+  font-weight: 700;
+}
+.modal2 .card-text {
+  font-weight: 300;
+  font-size: medium;
+}
+.modal2 .papas h4, .modal2 .combo h4 {
+  font-size: large;
+  font-weight: 700;
+}
+.modal2 .papas p, .modal2 .combo p {
+  font-weight: 300;
+  font-size: medium;
+}
+.modal2 .papas p b, .modal2 .combo p b {
+  font-weight: 700;
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 25px;
+  /* Ajusta la distancia desde la parte inferior */
+  right: 25px;
+  /* Ajusta la distancia desde la derecha */
+  display: none;
+  /* Inicialmente, oculta el botón */
+  z-index: 999;
+  /* Asegura que esté en la parte superior de otros elementos */
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
 }

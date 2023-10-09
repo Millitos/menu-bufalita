@@ -139,9 +139,7 @@ body{
     .col-12{
         padding: $separacion/4.9;
     }
-    .card{
-        width: 10%;
-    }
+   
     .card-text{
         width: 100%;
         font-size: medium;
@@ -241,3 +239,40 @@ body{
         }
     }
 }
+
+.modal2{
+    .card-title{
+        h3,p{
+            font-size: x-large;
+            font-weight: $bold;
+        }
+    }
+    .card-text{
+        font-weight: $delgada;
+        font-size: medium;
+    }
+    .papas,.combo{
+        h4{
+            font-size: large;
+            font-weight: $bold;
+        }
+        p{
+            font-weight: $delgada;
+            font-size: medium;
+            b{
+                font-weight: $bold;
+            }
+        }
+    }
+}
+
+.scroll-to-top {
+    position: fixed; //deja el btn fijo
+    bottom: 25px; /* Ajusta la distancia desde la parte inferior */
+    right: 25px; /* Ajusta la distancia desde la derecha */
+    display: none; /* Inicialmente, oculta el botón */
+    z-index: 999; /* Asegura que esté en la parte superior de otros elementos */
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+  }
