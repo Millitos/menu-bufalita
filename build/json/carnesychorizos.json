@@ -1,0 +1,34 @@
+[
+    {
+        "id": "1",
+        "nombre": "Carne bufalita express",
+        "ingredientes": [
+          "Carne 250gr",
+          "papa a la francesa",
+          "ensalada"
+        ],
+        "Precio": "$20.000"
+    },
+    {
+        "id": "2",
+        "nombre": "Chorizo de búfalo express",
+        "ingredientes": [
+          "Chorizó de búfalo 165gr",
+          "queso fundido",
+          "papa a la francesa",
+          "ensalada"
+        ],
+        "Precio": "$18.000"
+    },
+    {
+        "id": "3",
+        "nombre": "Pechuga express",
+        "ingredientes": [
+          "Filete de pollo 250gr",
+          "queso fundido",
+          "papa a la francesa",
+          "ensalada"
+        ],
+        "Precio": "$18.000"
+    }
+]

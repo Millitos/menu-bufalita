@@ -506,6 +506,11 @@ body {
 .div-container .navbar-logo img {
   width: 100%;
 }
+.div-container .pruebaa {
+  width: 66.25px;
+  height: 28.75px;
+  background-color: #181818;
+}
 
 .menus {
   margin-top: 3rem;
@@ -527,7 +532,7 @@ body {
   box-shadow: 0px 5px 5px;
 }
 .col-sm-6 button:hover {
-  transform: scale(1.1);
+  transform: scale(0.9);
 }
 .col-sm-6 img {
   width: 100%;

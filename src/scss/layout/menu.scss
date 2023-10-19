@@ -109,6 +109,11 @@ body{
             width: 100%;
         }
     }
+    .pruebaa{ //elemento puesto para poner centrar el logo de bufalita
+        width: 66.25px;
+        height: 28.75px;
+        background-color: #181818;
+    }
     
 }
 
@@ -135,7 +140,7 @@ body{
 
 
         &:hover{
-            transform: scale(1.1);
+            transform: scale(0.9);
         }
     }
     img{

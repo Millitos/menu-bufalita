@@ -507,18 +507,9 @@ body {
   width: 100%;
 }
 .div-container .pruebaa {
-  width: 132.22px;
+  width: 66.25px;
   height: 28.75px;
   background-color: #181818;
-}
-
-.main {
-  padding: 0px 15% 0px;
-}
-@media (max-width: 768px) {
-  .main {
-    padding: 0;
-  }
 }
 
 .img-container {
@@ -562,6 +553,9 @@ body {
   .col-md-3 .botones {
     display: none;
   }
+}
+.col-md-3 .botones .btn {
+  margin-top: 5px;
 }
 @media (max-width: 767px) {
   .col-md-3 .categorias-container {

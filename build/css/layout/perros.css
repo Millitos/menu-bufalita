@@ -506,6 +506,11 @@ body {
 .div-container .navbar-logo img {
   width: 100%;
 }
+.div-container .pruebaa {
+  width: 82.73px;
+  height: 28.75px;
+  background-color: #181818;
+}
 
 .main {
   padding: 0px 15% 0px;

@@ -6,8 +6,8 @@ let loader = document.querySelector('.loader');
 
 document.addEventListener('DOMContentLoaded', function () {
     setTimeout(function () {
-        loader.className = 'hide';
-        body.classList.remove('hidden');
+        loader.className = 'hide'; //desp de 1seg oculto el loader aggdole la clase hide
+        body.classList.remove('hidden'); //dsp de 1seg quita hidden del body
     }, 1000)
 
     // console.log('ola');
@@ -36,7 +36,7 @@ function conexion() {
 const containerProductos = document.querySelector('.productos-container');
 
 function cargarBebidas(data) {
-    console.log(data);
+    // console.log(data);
     containerProductos.innerHTML = "";
     data.forEach((dat) => {
         const div = document.createElement('div');
@@ -165,4 +165,44 @@ btnTodos.addEventListener('click',function(){
 
 linkTodos.addEventListener('click',function(){
     cargarBebidas(GlobalData);
+})
+
+// Función para manejar el clic en botones
+function manejarClicBoton(elemento) {
+    // Eliminar la clase 'clickeado' de todos los botones y enlaces
+    btnTodos.classList.remove("clickeado");
+    btnGaseosas.classList.remove("clickeado");
+    btnJugos.classList.remove("clickeado");
+    linkTodos.classList.remove("clickeado");
+    linkGaseosas.classList.remove("clickeado");
+    linkJugos.classList.remove("clickeado");
+  
+    // Agregar la clase 'clickeado' al botón o enlace clickeado
+    elemento.classList.add("clickeado");
+  }
+
+
+const hTodos = document.querySelector(".hTodos");
+const hGaseosas = document.querySelector(".hGaseosas");
+const hJugos = document.querySelector(".hJugos");
+
+// Función para manejar el clic en botones
+function manejarClicBoton(elemento) {
+    // Eliminar la clase 'clickeado' de todos los botones y enlaces
+    hTodos.classList.remove("clickeado");
+    hGaseosas.classList.remove("clickeado");
+    hJugos.classList.remove("clickeado");
+  
+    // Agregar la clase 'clickeado' al botón o enlace clickeado
+    elemento.classList.add("clickeado");
+}
+
+linkTodos.addEventListener('click',function(){
+    manejarClicBoton(hTodos);
+})
+linkGaseosas.addEventListener('click',function(){
+    manejarClicBoton(hGaseosas);
+})
+linkJugos.addEventListener('click',function(){
+    manejarClicBoton(hJugos);
 })

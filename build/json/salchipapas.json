@@ -1,0 +1,170 @@
+[
+    {
+        "id": "1",
+        "nombre": "Salchipapa Express",
+        "ingredientes": [
+          "Papa a la francesa",
+          "salchicha americana"
+        ],
+        "Precio": "$10.000"
+    },
+    {
+        "id": "2",
+        "nombre": "Picada Express",
+        "ingredientes": [
+          "Carne",
+          "chorizo de búfalo"	,
+          "pollo en julianas",
+          "papa a la francesa"
+        ],
+        "Precio": "$30.000"
+    },
+    {
+        "id": "3",
+        "nombre": "Choripapa Express",
+        "ingredientes": [
+          "Chorizo de búfalo",
+          "papa a la francesa"
+        ],
+        "Precio": "$15.000"
+    },
+    {
+        "id": "4",
+        "nombre": "Choricarne Express",
+        "ingredientes": [
+          "Chorizo de búfalo",
+          "carne",
+          "papa a la francesa"
+        ],
+        "Precio": "$18.000"
+    },
+    {
+        "id": "5",
+        "nombre": "Choripollo Express",
+        "ingredientes": [
+          "Chorizo de búfalo",
+          "pollo en julianas",
+          "papa a la francesa"
+        ],
+        "Precio": "$18.000"
+    },
+    {
+      "id": "6",
+      "nombre": "Salchichoripollo Express",
+      "ingredientes": [
+        "Chorizo de búfalo",
+        "pollo en julianas",
+        "salchicha americana",
+        "papa a la francesa"
+      ],
+      "Precio": "$18.000"
+    },
+    {
+      "id": "7",
+      "nombre": "Salchichoricarne Express",
+      "ingredientes": [
+        "Chorizo de búfalo",
+        "carne",
+        "salchicha americana",
+        "papa a la francesa"
+      ],
+      "Precio": "$18.000"
+    },
+    {
+      "id": "8",
+      "nombre": "Desmechada Express",
+      "ingredientes": [
+        "Carne desmechada",
+        "trocitos de maduro",
+        "queso rallado",
+        "papa a la francesa",
+        "papa criolla"
+      ],
+      "Precio": "$15.000"
+    },
+    {
+      "id": "9",
+      "nombre": "Pollo tocineta Express",
+      "ingredientes": [
+        "Pollo desmechado",
+        "tocineta",
+        "queso rallado",
+        "rapipapa",
+        "papa criolla"
+      ],
+      "Precio": "$15.000"
+    },
+    {
+      "id": "10",
+      "nombre": "Regional Express",
+      "ingredientes": [
+        "Carne desmechada",
+        "tocineta",
+        "chorizo de búfalo",
+        "trocitos de maduro",
+        "huevo",
+        "papa a la francesa",
+        "papa criolla"
+      ],
+      "Precio": "$17.000"
+    },
+    {
+      "id": "11",
+      "nombre": "Picantes Express",
+      "ingredientes": [
+        "Carne desmechada picante",
+        "tocineta",
+        "queso rallado",
+        "papa a la francesa",
+        "papa criolla"
+      ],
+      "Precio": "$15.000"
+    },
+    {
+      "id": "12",
+      "nombre": "Acaramelado Express",
+      "ingredientes": [
+        "Chorizo de búfalo",
+        "trocitos de maduro",
+        "papa a la francesa",
+        "papa criolla"
+      ],
+      "Precio": "$17.000"
+    },
+    {
+      "id": "13",
+      "nombre": "Family Express",
+      "ingredientes": [
+        "Carne desmechada",
+        "pollo desmechado",
+        "salchicha americana",
+        "maíz",
+        "queso rallado",
+        "papa a la francesa",
+        "papa criolla"
+      ],
+      "Precio": "$30.000"
+    },
+    {
+      "id": "14",
+      "nombre": "BBQ Express",
+      "ingredientes": [
+        "Maíz",
+        "chorizo de búfalo",
+        "carne",
+        "papa a la francesa"
+      ],
+      "Precio": "$17.000"
+    },
+    {
+      "id": "15",
+      "nombre": "Pollo queso Express",
+      "ingredientes": [
+        "Maíz",
+        "pollo en julianas",
+        "queso rallado",
+        "papa a la francesa"
+      ],
+      "Precio": "$17.000"
+    }
+]

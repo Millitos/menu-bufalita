@@ -21,7 +21,6 @@ body{
 
 //para esconder el div contenedor del logo y el loader
 
-
 .lds-ring {
     display: inline-block;
     position: relative;
@@ -63,7 +62,7 @@ body{
 }
 //centro el spinner 
 .loader{
-    height: 100vh;
+    height: 100vh; //toma todo el tamaño de la pantalla
     display: flex;
     justify-content: center;
     align-items: center;
@@ -108,6 +107,11 @@ body{
         img{
             width: 100%;
         }
+    }
+    .pruebaa{ //elemento puesto para poner centrar el logo de bufalita
+        width: 90.98px;
+        height: 28.75px;
+        background-color: #181818;
     }
     
 }
@@ -205,6 +209,9 @@ body{
         border-end-start-radius: 15px;
         font-size: medium;
         &:hover{
+            background-color: antiquewhite;
+        }
+        &.clickeado{ //para al darle click se quede coloreado
             background-color: antiquewhite;
         }
         

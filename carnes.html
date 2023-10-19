@@ -1,20 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="build/css/layout/perros.css">
+    <link rel="stylesheet" href="/build/css/layout/carnes.css">
     <link rel="icon" href="build/img/logo.png" type="image/x-icon">
-    <title>Perros</title>
+    <title>Carnes</title>
 </head>
-
 <body class="hidden">
-    <!-- loader -->
-
     <div class="loader">
 
         <div class="logoSpinner">
@@ -35,7 +31,7 @@
         <div class="div-container">
             <div class="container-flex">
                 <a class="navbar-brand" href="menu.html">
-                    <i class="bi bi-arrow-left"> Perros</i>
+                    <i class="bi bi-arrow-left"> Carnes</i>
                 </a>
 
                 <div class="navbar-logo">
@@ -49,7 +45,7 @@
             </div>
         </div>
     </nav>
-
+    
     <!-- main body -->
     <main class="main">
         <div class="container">
@@ -64,16 +60,14 @@
                     <div class="categorias-container">
                         <div class="categorias">
                             <p>Categorías</p>
-                            <h5>Perros</h5>
                             <h5><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Adicionales</a></h5>
-
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-9">
 
                     <div class="img-container">
-                        <img src="../build/img/perros.png" alt="hamburguesas">
+                        <img src="build/img/carnesychorizos.png" alt="Carnes">
                     </div>
                     <div class="container">
                         <div class="row productos-container">
@@ -95,7 +89,7 @@
         </div>
     </main>
 
-    <!-- modal -->
+    <!-- modal adicionales-->
     <div class="row">
         <div class="col modaltest">
             <!-- modal init -->
@@ -135,8 +129,7 @@
             <!-- modal init -->
 
             <!-- Modal -->
-            <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="exampleModalLabel"
-                aria-hidden="true">
+            <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-lg">
                     <div class="modal-content">
                         <div class="modal-body">
@@ -152,12 +145,14 @@
                                         <h4>Elige:</h4>
                                         <p>Papa a la francesa</p>
                                         <p>Papa criolla</p>
-                                        <p>Papa enchulada (Salsas, queso rallado, doritos picados, tocineta picada) <b>+$5.000</b></p>
-                                    </div>
+                                        <p>Papa enchulada (Salsas, queso rallado, doritos picados, tocineta picada)
+                                            <b>+$5.000</b>
+                                        </p>
+                                    </div> 
                                     <div class="combo">
                                         <h4>Combo:</h4>
                                         <p class="comboPet">Cocacola Pet 400 o Agua <b>$18.000</b></p>
-                                        <p class="comboJugo">Jugo natural <b>$21.000</b></p> 
+                                        <p class="comboJugo">Jugo natural <b>$21.000</b></p>
                                     </div>
                                 </div>
                             </div>
@@ -171,17 +166,14 @@
         </div>
     </div>
 
-    
     <div>
         <button onclick="scrollToTop()" class="scroll-to-top btn btn-danger"><i class="bi bi-arrow-up"></i></button>
     </div>
-      
 
-        <script src="build/js/perros.js"></script>
-        <script src="build/js/adicionales.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-            crossorigin="anonymous"></script>
+    <script src="/build/js/carnes.js"></script>
+    <script src="/build/js/adicionales.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
 </body>
-
 </html>

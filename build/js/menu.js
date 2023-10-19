@@ -23,3 +23,15 @@ function redirectToHamburguesas(){
 function redirectToPerros(){
     window.location.href = 'perros.html';
 }
+
+function redirectToSalchipapas(){
+    window.location.href = 'salchipapas.html';
+}
+
+function redirectToCarnes(){
+    window.location.href = 'carnes.html';
+}
+
+function redirectToSandwich(){
+    window.location.href = 'sandwiches.html';
+}

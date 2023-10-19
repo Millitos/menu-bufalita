@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1",
+        "nombre": "Patacón express",
+        "ingredientes": [
+          "Plátano",
+          "carne desmechada",
+          "pollo desmechado",
+          "guiso",
+          "queso rallado"
+        ],
+        "Precio": "$15.000"
+    },
+    {
+        "id": "2",
+        "nombre": "Sándwich express",
+        "ingredientes": [
+          "Pan árabe",
+          "pollo en julianas",
+          "jamón",
+          "queso rallado",
+          "verdura"
+        ],
+        "Precio": "$18.000"
+    }
+]

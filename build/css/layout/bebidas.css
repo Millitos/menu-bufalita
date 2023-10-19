@@ -506,6 +506,11 @@ body {
 .div-container .navbar-logo img {
   width: 100%;
 }
+.div-container .pruebaa {
+  width: 90.98px;
+  height: 28.75px;
+  background-color: #181818;
+}
 
 .main {
   padding: 0px 15% 0px;
@@ -603,6 +608,9 @@ body {
   font-size: medium;
 }
 .categorias h5:hover {
+  background-color: antiquewhite;
+}
+.categorias h5.clickeado {
   background-color: antiquewhite;
 }
 .categorias h5 a {

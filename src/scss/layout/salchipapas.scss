@@ -109,20 +109,11 @@ body{
         }
     }
     .pruebaa{ //elemento puesto para poner centrar el logo de bufalita
-        width: 82.73px;
+        width: 66.25px;
         height: 28.75px;
         background-color: #181818;
     }
-    
 }
-
-.main{
-    padding: 0px 15% 0px;
-    @include tablet768{
-        padding: 0;
-    }
-}
-
 
 .img-container{
     padding: 1.0204081633rem;
@@ -144,7 +135,7 @@ body{
     .col-12{
         padding: $separacion/4.9;
     }
-
+   
     .card-text{
         width: 100%;
         font-size: medium;
@@ -166,6 +157,10 @@ body{
         @include mintablet{
             display: none;
         }
+    .btn{
+        margin-top: 5px;
+    }
+    
     }
     .categorias-container{
         @include tablet{ //quita esa columna de la parte de arriba cuando tiene el tamano de tablet
