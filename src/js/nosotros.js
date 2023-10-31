@@ -15,7 +15,6 @@ document.addEventListener('DOMContentLoaded',function(){
 
 })
 
-document.addEventListener('DOMContentLoaded',function(){
-    body.setProperty('background-image', 'url(../../../build/img/underConstruction.jpg)');
-
-})
+// document.addEventListener('DOMContentLoaded',function(){
+//     body.setProperty('background-image', 'url(../../../build/img/underConstruction.jpg)');
+// })
