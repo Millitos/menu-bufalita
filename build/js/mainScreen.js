@@ -25,3 +25,7 @@ function redirectToDomicilios(){
 function redirectToUbicacion(){
     window.location.href = 'ubicacion.html';
 }
+
+function redirectToNosotros(){
+    window.location.href = 'nosotros.html';
+}
