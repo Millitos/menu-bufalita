@@ -7,14 +7,10 @@ document.addEventListener('DOMContentLoaded',function(){
     setTimeout(function(){
         loader.className = 'hide';
         body.classList.remove('hidden');
-        body.setProperty('background-image', 'url(../../../build/img/fondo.jpg)');
+        body.style.setProperty('background-image', 'url(../../../build/img/underConstruction.jpg)');
         
-
     },1000)
     
 
 })
 
-// document.addEventListener('DOMContentLoaded',function(){
-//     body.setProperty('background-image', 'url(../../../build/img/underConstruction.jpg)');
-// })
