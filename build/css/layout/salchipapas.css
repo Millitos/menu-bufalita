@@ -589,6 +589,9 @@ body {
 .categorias h5:hover {
   background-color: antiquewhite;
 }
+.categorias h5.clickeado {
+  background-color: antiquewhite;
+}
 .categorias h5 a {
   color: #181818;
 }

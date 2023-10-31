@@ -167,24 +167,10 @@ linkTodos.addEventListener('click',function(){
     cargarBebidas(GlobalData);
 })
 
-// Función para manejar el clic en botones
-function manejarClicBoton(elemento) {
-    // Eliminar la clase 'clickeado' de todos los botones y enlaces
-    btnTodos.classList.remove("clickeado");
-    btnGaseosas.classList.remove("clickeado");
-    btnJugos.classList.remove("clickeado");
-    linkTodos.classList.remove("clickeado");
-    linkGaseosas.classList.remove("clickeado");
-    linkJugos.classList.remove("clickeado");
-  
-    // Agregar la clase 'clickeado' al botón o enlace clickeado
-    elemento.classList.add("clickeado");
-  }
-
-
 const hTodos = document.querySelector(".hTodos");
 const hGaseosas = document.querySelector(".hGaseosas");
 const hJugos = document.querySelector(".hJugos");
+
 
 // Función para manejar el clic en botones
 function manejarClicBoton(elemento) {

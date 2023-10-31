@@ -217,3 +217,39 @@ btnDesgranados.addEventListener('click', function() {
 linkDesgranados.addEventListener('click',function(){
     cargarDesgranados(GlobalData);
 });
+
+const hTodos = document.querySelector(".linkTodos");
+const hSalchichaChorizo = document.querySelector(".linkSalchichaChorizo");
+const hPapasLocas = document.querySelector(".linkPapasLocas");
+const hDesgranados = document.querySelector(".linkDesgranados");
+const hAdicionales = document.querySelector(".linkAdicionales");
+const linkAdicionales = document.querySelector(".linkAdicionales");
+
+// Función para manejar el clic en botones
+function manejarClicBoton(elemento) {
+    // Eliminar la clase 'clickeado' de todos los botones y enlaces
+    hTodos.classList.remove("clickeado");
+    hSalchichaChorizo.classList.remove("clickeado");
+    hPapasLocas.classList.remove("clickeado");
+    hDesgranados.classList.remove("clickeado");
+    hAdicionales.classList.remove("clickeado");
+  
+    // Agregar la clase 'clickeado' al botón o enlace clickeado
+    elemento.classList.add("clickeado");
+}
+
+linkTodos.addEventListener('click',function(){
+    manejarClicBoton(hTodos);
+})
+linkSalchichaChorizo.addEventListener('click',function(){
+    manejarClicBoton(hSalchichaChorizo);
+})
+linkPapasLocas.addEventListener('click',function(){
+    manejarClicBoton(hPapasLocas);
+})
+linkDesgranados.addEventListener('click',function(){
+    manejarClicBoton(hDesgranados);
+})
+linkAdicionales.addEventListener('click',function(){
+    manejarClicBoton(hAdicionales);
+})

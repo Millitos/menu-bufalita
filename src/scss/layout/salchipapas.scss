@@ -194,6 +194,9 @@ body{
         &:hover{
             background-color: antiquewhite;
         }
+        &.clickeado{ //para al darle click se quede coloreado
+            background-color: antiquewhite;
+        }
         
         a{
             color: $negro;

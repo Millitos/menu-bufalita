@@ -110,13 +110,13 @@
         "id": "19",
         "nombre": "Jugo Natural Maracuya",
         "Precio": "$6.000",
-        "imagen":"build/img/manzana.webp"
+        "imagen":"build/img/maracuya.jpg"
     },
     {
         "id": "20",
         "nombre": "Jugo Natural Naranja",
         "Precio": "$6.000",
-        "imagen":"build/img/manzana.webp"
+        "imagen":"build/img/naranja.jpg"
     },
     {
         "id": "21",
