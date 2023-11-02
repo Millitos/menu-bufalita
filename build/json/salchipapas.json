@@ -6,7 +6,7 @@
           "Papa a la francesa",
           "salchicha americana"
         ],
-        "Precio": "$10.000"
+        "Precio": "$12.000"
     },
     {
         "id": "2",
@@ -17,7 +17,7 @@
           "pollo en julianas",
           "papa a la francesa"
         ],
-        "Precio": "$30.000"
+        "Precio": "$33.000"
     },
     {
         "id": "3",
@@ -26,7 +26,7 @@
           "Chorizo de búfalo",
           "papa a la francesa"
         ],
-        "Precio": "$15.000"
+        "Precio": "$18.000"
     },
     {
         "id": "4",
@@ -36,7 +36,7 @@
           "carne",
           "papa a la francesa"
         ],
-        "Precio": "$18.000"
+        "Precio": "$21.000"
     },
     {
         "id": "5",
@@ -46,7 +46,7 @@
           "pollo en julianas",
           "papa a la francesa"
         ],
-        "Precio": "$18.000"
+        "Precio": "$21.000"
     },
     {
       "id": "6",
@@ -57,7 +57,7 @@
         "salchicha americana",
         "papa a la francesa"
       ],
-      "Precio": "$18.000"
+      "Precio": "$21.000"
     },
     {
       "id": "7",
@@ -68,7 +68,7 @@
         "salchicha americana",
         "papa a la francesa"
       ],
-      "Precio": "$18.000"
+      "Precio": "$21.000"
     },
     {
       "id": "8",
@@ -80,7 +80,7 @@
         "papa a la francesa",
         "papa criolla"
       ],
-      "Precio": "$15.000"
+      "Precio": "$17.000"
     },
     {
       "id": "9",
@@ -92,7 +92,7 @@
         "rapipapa",
         "papa criolla"
       ],
-      "Precio": "$15.000"
+      "Precio": "$17.000"
     },
     {
       "id": "10",
@@ -106,7 +106,7 @@
         "papa a la francesa",
         "papa criolla"
       ],
-      "Precio": "$17.000"
+      "Precio": "$21.000"
     },
     {
       "id": "11",
@@ -118,7 +118,7 @@
         "papa a la francesa",
         "papa criolla"
       ],
-      "Precio": "$15.000"
+      "Precio": "$18.000"
     },
     {
       "id": "12",
@@ -154,7 +154,7 @@
         "carne",
         "papa a la francesa"
       ],
-      "Precio": "$17.000"
+      "Precio": "$20.000"
     },
     {
       "id": "15",
@@ -165,6 +165,6 @@
         "queso rallado",
         "papa a la francesa"
       ],
-      "Precio": "$17.000"
+      "Precio": "$18.000"
     }
 ]

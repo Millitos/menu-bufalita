@@ -9,7 +9,7 @@
           "Queso",
           "Porción de papas"
         ],
-        "Precio": "$13.000"
+        "Precio": "$15.000"
       },
       {
         "id": "2",
@@ -23,7 +23,7 @@
           "Queso",
           "Porción de papas"
         ],
-        "Precio": "$15.000"
+        "Precio": "$18.000"
       },
       {
         "id": "3",
@@ -33,11 +33,10 @@
           "Pollo",
           "Carne",
           "Tocineta",
-          "Trocitos de maduro",
           "Queso",
           "Porción de papas"
         ],
-        "Precio": "$17.000"
+        "Precio": "$21.000"
       },
       {
         "id": "4",
@@ -49,7 +48,7 @@
           "Queso",
           "Porción de papas"
         ],
-        "Precio": "$13.000"
+        "Precio": "$18.000"
       },
       {
         "id": "5",
@@ -64,7 +63,7 @@
           "Queso",
           "Porción de papas"
         ],
-        "Precio": "$20.000"
+        "Precio": "$25.000"
       }
 
 ]

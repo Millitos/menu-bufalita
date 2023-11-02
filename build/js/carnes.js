@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 function conexion() {
 
-    const url = '../build/json/carnesychorizos.json';
+    const url = '/build/json/carnesychorizos.json';
 
     fetch(url)
         .then((res) => {

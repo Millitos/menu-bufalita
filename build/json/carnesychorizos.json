@@ -18,7 +18,7 @@
           "papa a la francesa",
           "ensalada"
         ],
-        "Precio": "$18.000"
+        "Precio": "$20.000"
     },
     {
         "id": "3",
@@ -29,6 +29,6 @@
           "papa a la francesa",
           "ensalada"
         ],
-        "Precio": "$18.000"
+        "Precio": "$20.000"
     }
 ]

@@ -14,7 +14,8 @@ const paths = {
     imagenes:'src/img/**/*',
     scss: './src/scss/**/*.scss',
     js: 'src/js/**/*.js',
-    json:'src/json/**/*'
+    json:'src/json/**/*',
+    html:'src/html/**/*.html'
 }
 
 function compilarSass() { //tarea para aplicarle sass al archivo que puse en la direccion src
@@ -36,11 +37,17 @@ function indivJson(){
     .pipe(dest('./build/json'))
 }
 
+function indivHtml(){
+    return src(paths.html)
+    .pipe(dest('./build/html'))
+}
+
 function watchArchivos(){
     watch(paths.scss, compilarSass);
     watch(paths.js, indivJavascript);
     watch(paths.scss, indivCss);
     watch(paths.json, indivJson);
+    watch(paths.html, indivHtml);
 }
 
 //funcion que crea archivos js en la carpeta build por separado cada uno
@@ -74,10 +81,11 @@ function versionWebp(){
 exports.compilarSass = compilarSass; //exports.NombreTarea = NombreFuncion
 exports.watchArchivos = watchArchivos;
 // exports.javascript = javascript;
+exports.indivHtml = indivHtml;
 exports.imagenes = imagenes;
 exports.versionWebp = versionWebp;
 exports.indivJavascript = indivJavascript;
 exports.indivCss = indivCss;
 exports.indivJson = indivJson;
 
-exports.default = series(compilarSass,watchArchivos, imagenes,indivJavascript,indivCss,indivJson);
+exports.default = series(compilarSass,watchArchivos, imagenes,indivJavascript,indivCss,indivJson, indivHtml);

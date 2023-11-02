@@ -8,7 +8,7 @@
           "Queso de búfalo",
           "Porción de papas"
         ],
-        "Precio": "$15.000"
+        "Precio": "$17.000"
       },
       {
         "id": "2",
@@ -19,7 +19,7 @@
           "Queso de búfalo",
           "Porción de papas"
         ],
-        "Precio": "$17.000"
+        "Precio": "$19.000"
       },
       {
         "id": "3",
@@ -31,7 +31,7 @@
           "Queso de búfalo",
           "Porción de papas"
         ],
-        "Precio": "$20.000"
+        "Precio": "$24.000"
       },
       {
         "id": "4",
@@ -43,7 +43,7 @@
           "Queso de búfalo",
           "Porción de papas"
         ],
-        "Precio": "$20.000"
+        "Precio": "$22.000"
       },
       {
         "id": "5",
@@ -54,7 +54,7 @@
           "Queso de búfalo",
           "Porción de papas"
         ],
-        "Precio": "$20.000"
+        "Precio": "$24.000"
       },
       {
         "id": "6",
@@ -66,7 +66,7 @@
           "Queso de búfalo",
           "Porción de papas"
         ],
-        "Precio": "$20.000"
+        "Precio": "$22.000"
       },
       {
         "id": "7",
@@ -77,7 +77,7 @@
           "Queso de búfalo",
           "Porción de papas"
         ],
-        "Precio": "$21.000"
+        "Precio": "$25.000"
       },
       {
         "id": "8",
@@ -88,7 +88,7 @@
           "Queso de búfalo",
           "Porción de papas"
         ],
-        "Precio": "$13.000"
+        "Precio": "$14.500"
       },
       {
         "id": "9",
@@ -100,7 +100,7 @@
           "Queso de búfalo",
           "Porción de papas"
         ],
-        "Precio": "$15.000"
+        "Precio": "$17.500"
       },
       {
         "id": "10",
@@ -111,7 +111,7 @@
           "Queso de búfalo",
           "Porción de papas"
         ],
-        "Precio": "$15.000"
+        "Precio": "$16.000"
       },
       {
         "id": "11",
@@ -125,7 +125,7 @@
           "Queso de búfalo",
           "Porción de papas"
         ],
-        "Precio": "$23.000"
+        "Precio": "$25.000"
       },
       {
         "id": "12",
@@ -139,7 +139,7 @@
           "Queso de búfalo",
           "Porción de papas"
         ],
-        "Precio": "$24.000"
+        "Precio": "$26.000"
       },
       {
         "id": "13",
@@ -154,15 +154,13 @@
           "Queso de búfalo",
           "Porción de papas"
         ],
-        "Precio": "$25.000"
+        "Precio": "$29.000"
       },
       {
         "id": "14",
         "nombre": "Express Mega",
         "ingredientes": [
           "Carne de búfalo 250g",
-          "Carne de bufalo picante 145g",
-          "Arepa",
           "Chorizo",
           "Cortes de pollo en juliana",
           "Tocineta",
@@ -170,7 +168,7 @@
           "Queso de búfalo",
           "Porción de papas"
         ],
-        "Precio": "$30.000"
+        "Precio": "$27.000"
       }
 
 ]

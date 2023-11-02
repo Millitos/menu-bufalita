@@ -7,7 +7,7 @@ btnAdicionales.addEventListener('click',conexionAdicionales());
 
 function conexionAdicionales(){
 
-    const url = '../build/json/adicionales.json';
+    const url = '/build/json/adicionales.json';
 
     fetch(url)
     .then((res)=>{

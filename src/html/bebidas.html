@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/build/css/layout/bebidas.css">
+    <link rel="icon" href="/build/img/logo.png" type="image/x-icon">
+    <title>Bebidas</title>
+</head>
+
+<body class="hidden">
+    <!-- loader -->
+    <div class="loader">
+
+        <div class="logoSpinner">
+            <img src="/build/img/logo.png" alt="Bufalita Express">
+        </div>
+
+        <div class="lds-ring">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <!-- loader -->
+
+    <!-- barra de navegacion -->
+    <nav class="navbar">
+        <div class="div-container">
+            <div class="container-flex">
+                <a class="navbar-brand" href="/build/html/menu.html">
+                    <i class="bi bi-arrow-left"> Bebidas</i>
+                </a>
+
+                <div class="navbar-logo">
+                    <a href="/build/html/index.html">
+                        <img src="/build/img/bufalita2.png" alt="Bufalita Express">
+                    </a>
+                </div>
+                <div class="pruebaa">
+                    <!-- elemento puesto para poner centrar el logo de bufalita -->
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- main body -->
+    <!-- main body -->
+    <main class="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+
+                    <div class="botones">
+                        <button type="button" class="btn btn-danger btnTodos">Todos</button>
+                        <button type="button" class="btn btn-danger btnGaseosas">Gaseosas y agua</button>
+                        <button type="button" class="btn btn-danger btnJugos">Jugos</button>
+                    </div>
+
+                    <div class="categorias-container">
+                        <div class="categorias">
+                            <p>Categorías</p>
+                            <h5 class="hTodos"><a class="linkTodos" href="#">Todos</a></h5>
+                            <h5 class="hGaseosas"><a class="linkGaseosas" href="#">Gaseosas y Agua</a></h5>
+                            <h5 class="hJugos"><a class="linkJugos" href="#">Jugos</a></h5>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-9">
+
+                    <div class="img-container">
+                        <div class="loadImg">
+                            <img src="/build/img/BEBIDAS.png" alt="Bebidas">
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row productos-container">
+                            <!-- agregados dinamicamente -->
+                            <!-- <div class="col-12 col-lg-4 col-md-6">
+                                <div class="card mb-3" style="max-width: 540px;">
+                                    <div class="row g-0">
+                                        <div class="col-4">
+                                            <img src="build/img/logo.png" class="img-fluid rounded-start" alt="...">
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Gaseosa Coca Cola sabor original 400ml</h5>
+                                                <p class="card-text">$5.000</p>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> -->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div>
+        <button onclick="scrollToTop()" class="scroll-to-top btn btn-danger"><i class="bi bi-arrow-up"></i></button>
+    </div>
+
+
+    <script src="/build/js/bebidas.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 function conexion() {
 
-    const url = '../build/json/bebidas.json';
+    const url = '/build/json/bebidas.json';
 
     fetch(url)
         .then((res) => {

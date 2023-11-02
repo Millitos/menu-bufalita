@@ -23,7 +23,7 @@ const div = document.querySelector('.dj');
 
 function conexion(){
 
-    const url = '../build/json/perrosCalientes.json';
+    const url = '/build/json/perrosCalientes.json';
 
     fetch(url)
     .then((res)=>{
@@ -66,10 +66,10 @@ function scrollToTop() {
     //función predeterminada en JavaScript que se utiliza para desplazar la ventana actual del navegador a una posición específica en la página
     //se utiliza para controlar el desplazamiento de la ventana del navegador.
     window.scrollTo({
-      top: 0, //coordenada vertical en px, 0 pone al inicio de la parte superior
-      behavior: "smooth"
+        top: 0, //coordenada vertical en px, 0 pone al inicio de la parte superior
+        behavior: "smooth"
     });
-  }
+}
 
 
 //La línea window.onscroll es un evento que se activa cuando ocurre un evento de desplazamiento en la ventana del navegador.
@@ -79,11 +79,11 @@ window.onscroll = function() {
     var scrollTopButton = document.querySelector(".scroll-to-top"); //tomo el elemento al cual le voy a quitar o poner el display
     //obtiene la cantidad de píxeles por los que se ha desplazado la página verticalmente
     if (document.documentElement.scrollTop > 150) {
-      scrollTopButton.style.display = "block";
+        scrollTopButton.style.display = "block";
     } else {
-      scrollTopButton.style.display = "none";
+        scrollTopButton.style.display = "none";
     }
-  };
+};
 
 //evento para llenar la info del btn ver
 const prodContainer = document.querySelector(".productos-container");

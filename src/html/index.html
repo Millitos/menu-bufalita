@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="/build/css/app.css">
+    <!-- logo para la pestana del html -->
+    <link rel="icon" href="/build/img/logo.png" type="image/x-icon">
+    <title>Bufalita Express</title>
+</head>
+
+<body class="hidden">
+
+    <section class="mainScreenSection">
+
+        <!-- loader -->
+        <div class="loader">
+
+            <div class="logoSpinner">
+                <img src="/build/img/logo.png" alt="Bufalita Express">
+            </div>
+
+            <div class="lds-ring">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <!-- Logo -->
+        <header>
+            <div class="containerLogo">
+                <img src="/build/img/logo.png" alt="Bufalita Express">
+            </div>
+        </header>
+
+        <!-- cuerpo interfaz principal -->
+        <main>
+            <div class="containerButtons">
+
+                <button class="btn btnMenu btn-danger" type="button" onclick="redirectToMenu()">
+                    <div class="menu-container">
+                        <div class="logo-container">
+                            <h3><i class="bi bi-clipboard2"></i> </h3>
+                        </div>
+                        <div class="text-container">
+                            <h3>Menú</h3>
+                        </div>
+                    </div>
+                </button>
+
+                <button class="btn btnDomi  btn-danger" type="button" onclick="redirectToDomicilios()">
+                    <div class="menu-container">
+                        <div class="logo-container">
+                            <h3><i class="bi bi-truck"></i> </h3>
+                        </div>
+                        <div class="text-container">
+                            <h3>Domicilios</h3>
+                        </div>
+                    </div>
+                </button>
+
+                <button class="btn btnUbi  btn-danger" type="button" onclick="redirectToUbicacion()">
+                    <div class="menu-container">
+                        <div class="logo-container">
+                            <h3><i class="bi bi-geo-alt-fill"></i></h3>
+                        </div>
+                        <div class="text-container">
+                            <h3>Ubicación</h3>
+                        </div>
+                    </div>
+                </button>
+
+                <button class="btn btnAbout  btn-danger" type="button"  onclick="redirectToNosotros()">
+                    <div class="menu-container">
+                        <div class="logo-container">
+                            <h3><i class="bi bi-file-person"></i></h3>
+                        </div>
+                        <div class="text-container">
+                            <h3>Nosotros</h3>
+                        </div>
+                    </div>
+                    
+                </button>
+
+            </div>
+        </main>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <div class="whatsapp">
+            <p>Contáctanos<p>
+            <a href="https://api.whatsapp.com/send/?phone=573132635282"><i class="bi bi-whatsapp"></i></a>
+            
+        </div>
+    </footer>
+
+    <!-- footer -->
+    <!-- <div class="container-fluid footer">
+        <footer>
+            <section class="horario">
+                <div class="horario-container">
+                    <h4>Horario</h4>
+                    <ul>
+                        <li>Miercoles a Lunes: 5 - 10 pm</li>
+                    </ul>
+                </div>
+                <div class="direccion-container">
+                    <h4>Dirección</h4>
+                    <ul>
+                        <li>Carrera 2 No 5-38 Centro</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="contrataciones">
+                <div class="contrataciones-container">
+                    <h4>Contrataciones</h4>
+                    <ul>
+                        <li>millosenriquejinete@hotmail.com
+                        </li>
+                    </ul>
+                </div>
+                <div class="telefono-container">
+                    <h4>Teléfono</h4>
+                    <ul>
+                        <li>+57 3132635282</li>
+                    </ul>
+                </div>
+            </section>
+        </footer>
+    </div> -->
+    
+    <script src="/build/js/mainScreen.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

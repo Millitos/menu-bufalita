@@ -3,137 +3,137 @@
         "id": "1",
         "nombre": "Kola Hipinto 1.5L",
         "Precio": "$6.000",
-        "imagen":"build/img/kola1.5.jpg"
+        "imagen":"/build/img/kola1.5.jpg"
     },
     {
         "id": "2",
         "nombre": "Kola Hipinto 400ml",
         "Precio": "$3.000",
-        "imagen":"build/img/kola400ml.jpg"
+        "imagen":"/build/img/kola400ml.jpg"
     },
     {
         "id": "3",
         "nombre": "Manzana Postobon 1.5L",
         "Precio": "$6.000",
-        "imagen":"build/img/manzana.webp"
+        "imagen":"/build/img/manzana.webp"
     },
     {
         "id": "4",
         "nombre": "Manzana Postobon 400ml",
         "Precio": "$3.000",
-        "imagen":"build/img/manzana400ml.jpg"
+        "imagen":"/build/img/manzana400ml.jpg"
     },
     {
         "id": "5",
         "nombre": "Uva Postobon 1.5L",
         "Precio": "$6.000",
-        "imagen":"build/img/uva1.5.png"
+        "imagen":"/build/img/uva1.5.png"
     },
     {
         "id": "6",
         "nombre": "Uva Postobon 400ml",
         "Precio": "$3.000",
-        "imagen":"build/img/uva400ml.webp"
+        "imagen":"/build/img/uva400ml.webp"
     },
     {
         "id": "7",
         "nombre": "Naranja Postobon 1.5L",
         "Precio": "$6.000",
-        "imagen":"build/img/naranja1.5.jpg"
+        "imagen":"/build/img/naranja1.5.jpg"
     },
     {
         "id": "8",
         "nombre": "Naranja Postobon 400ml",
         "Precio": "$3.000",
-        "imagen":"build/img/naranja400ml.webp"
+        "imagen":"/build/img/naranja400ml.webp"
     },
     {
         "id": "9",
         "nombre": "Piña Hipinto 1.5L",
         "Precio": "$6.000",
-        "imagen":"build/img/piña.webp"
+        "imagen":"/build/img/piña.webp"
     },
     {
         "id": "10",
         "nombre": "Piña Hipinto 400ml",
         "Precio": "$3.000",
-        "imagen":"build/img/piña.webp"
+        "imagen":"/build/img/piña.webp"
     },
     {
         "id": "11",
         "nombre": "Colombiana la nuestra 400ml",
         "Precio": "$3.000",
-        "imagen":"build/img/colombiana400ml.png"
+        "imagen":"/build/img/colombiana400ml.png"
     },
     {
         "id": "12",
         "nombre": "Coca Cola Sabor Original 1.5L",
         "Precio": "$6.000",
-        "imagen":"build/img/cocacola1.5.webp"
+        "imagen":"/build/img/cocacola1.5.webp"
     },
     {
         "id": "13",
         "nombre": "Coca Cola Sabor Original 400ml",
         "Precio": "$3.000",
-        "imagen":"build/img/cocacola400ml.jpg"
+        "imagen":"/build/img/cocacola400ml.jpg"
     },
     {
         "id": "14",
         "nombre": "Agua 600ml",
         "Precio": "$3.000",
-        "imagen":"build/img/agua600ml.webp"
+        "imagen":"/build/img/agua600ml.webp"
     },
     {
         "id": "15",
         "nombre": "Jugo Hit Mango 1L",
         "Precio": "$6.000",
-        "imagen":"build/img/jugomango.png"
+        "imagen":"/build/img/jugomango.png"
     },{
         "id": "16",
         "nombre": "Jugo Hit Mora 1L",
         "Precio": "$6.000",
-        "imagen":"build/img/jugomora.webp"
+        "imagen":"/build/img/jugomora.webp"
     },
     {
         "id": "17",
         "nombre": "Jugo Hit Tropical 1L",
         "Precio": "$6.000",
-        "imagen":"build/img/jugotropical.png"
+        "imagen":"/build/img/jugotropical.png"
     },
     {
         "id": "18",
         "nombre": "Jugo Hit Naranja piña 1L",
         "Precio": "$6.000",
-        "imagen":"build/img/jugonaranjapiña.webp"
+        "imagen":"/build/img/jugonaranjapiña.webp"
     },
     {
         "id": "19",
         "nombre": "Jugo Natural Maracuya",
         "Precio": "$6.000",
-        "imagen":"build/img/maracuya.jpg"
+        "imagen":"/build/img/maracuya.jpg"
     },
     {
         "id": "20",
         "nombre": "Jugo Natural Naranja",
         "Precio": "$6.000",
-        "imagen":"build/img/naranja.jpg"
+        "imagen":"/build/img/naranja.jpg"
     },
     {
         "id": "21",
         "nombre": "Jugo Natural Mandarina",
         "Precio": "$6.000",
-        "imagen":"build/img/manzana.webp"
+        "imagen":"/build/img/jugoMandarina.jpg"
     },
     {
         "id": "22",
         "nombre": "Jugo Natural Limón",
         "Precio": "$6.000",
-        "imagen":"build/img/jugonaturallimon.jpg"
+        "imagen":"/build/img/jugoLimon.jpg"
     },
     {
         "id": "23",
         "nombre": "Jugo Natural Fresa",
         "Precio": "$6.000",
-        "imagen":"build/img/manzana.webp"
+        "imagen":"/build/img/jugoFresa.jpg"
     }
 ] 

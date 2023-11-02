@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded',function(){
 
 function conexion(){
 
-    const url = '../build/json/hamburguesas.json';
+    const url = '/build/json/hamburguesas.json';
 
     fetch(url)
     .then((res)=>{

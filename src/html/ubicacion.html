@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 100%;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/build/css/layout/ubicacion.css">
+    <link rel="icon" href="/build/img/logo.png" type="image/x-icon">
+    <title>Ubicación</title>
+</head>
+<!-- https://www.emiweb.es/paginas/tutoriales/servicios-externos/incluir-un-mapa-de-google-maps.html -->
+<body class="hidden" style="height: 100%;">
+
+    <!-- loader -->
+    <div class="loader">
+
+        <div class="logoSpinner">
+            <img src="/build/img/logo.png" alt="Bufalita Express">
+        </div>
+
+        <div class="lds-ring">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <nav class="navbar">
+        <div class="div-container" style="display: inline-block;">
+            <div class="container-flex">
+                <a class="navbar-brand" href="index.html">
+                    <i class="bi bi-arrow-left"> Ubicación</i>
+                </a>
+
+                <div class="navbar-logo">
+                    <a href="index.html">
+                        <img src="/build/img/bufalita2.png" alt="Bufalita Express">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main style="width:100%; height: 100%;">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.054670865368!2d-73.90380670203838!3d7.347758089485116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e42c8e5823ce80d%3A0x94003ff7b48ac4be!2sCra.%202%20%23538%2C%20Puerto%20Wilches%2C%20Santander!5e0!3m2!1ses-419!2sco!4v1695584844363!5m2!1ses-419!2sco" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </main>
+    <script src="/build/js/menu.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+</html>
