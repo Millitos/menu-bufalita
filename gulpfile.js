@@ -22,24 +22,24 @@ function compilarSass() { //tarea para aplicarle sass al archivo que puse en la 
     // .pipe()-los pasos que debe realizar antes del return
     return src("./src/scss/app.scss") // './' desde la ubicacion actual del gulpfile navega hasta el src, ESTAN EN EL MISMO NIVEL
     .pipe(sass()) //le aplica sass al archivo especificado en src
-    .pipe(dest("./build/css")); //indico donde quiero guardar las hojas de estilo
+    .pipe(dest("./docs/css")); //indico donde quiero guardar las hojas de estilo
 }   
 
 //para poder crear archivos de css separados para cada pagina html
 function indivCss(){
     return src(paths.scss)
     .pipe(sass())
-    .pipe(dest("./build/css"))
+    .pipe(dest("./docs/css"))
 }
 
 function indivJson(){
     return src(paths.json)
-    .pipe(dest('./build/json'))
+    .pipe(dest('./docs/json'))
 }
 
 function indivHtml(){
     return src(paths.html)
-    .pipe(dest('./build/html'))
+    .pipe(dest('./docs/html'))
 }
 
 function watchArchivos(){
@@ -50,30 +50,30 @@ function watchArchivos(){
     watch(paths.html, indivHtml);
 }
 
-//funcion que crea archivos js en la carpeta build por separado cada uno
+//funcion que crea archivos js en la carpeta docs por separado cada uno
 function indivJavascript(){
     return src(paths.js)
-    .pipe(dest('./build/js'));
+    .pipe(dest('./docs/js'));
 }
 
 //esta funcion une todos los cambios de varios archivos js en uno solo
 // function javascript(){
 //     return src(paths.js)
 //     .pipe(concat('bundle.js'))
-//     .pipe(dest('./build/js'));
+//     .pipe(dest('./docs/js'));
 // }
 
 function imagenes(){
     return src(paths.imagenes)
     .pipe(imagemin())
-    .pipe(dest('./build/img'))
+    .pipe(dest('./docs/img'))
     .pipe(notify({message:'Imagen minificada'}));
 }
 
 function versionWebp(){
     return src(paths.imagenes)
     .pipe(webp())
-    .pipe(dest('./build/img'))
+    .pipe(dest('./docs/img'))
     .pipe(notify({message:'Version webP lista'}));
 }
 
